@@ -1,0 +1,3602 @@
+[
+    {
+        "userId": "IRO705375",
+        "organizationName": "Irorun",
+        "fullName": "Sarah Balogun",
+        "email": "sarahbalogun@lendstar.com",
+        "phoneNumber": "08093551562",
+        "bvn": "BVN 30114544154",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 1,
+        "residenceType": "self-owned",
+        "dateJoined": "2022-04-10T09:44:00",
+        "bank": "Providus Bank",
+        "accountBalance": 234123,
+        "userTier": 3,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "employed",
+            "sector": "FinTech",
+            "employmentDuration": "8",
+            "officeEmail": "sarahbalogun@irorun.com",
+            "monthlyIncome": "100000-200000",
+            "loanRepayment": 33667
+        },
+        "socials": {
+            "twitter": "@sarah_balogun",
+            "facebook": "Sarah Balogun",
+            "instagram": "@sarah_balogun"
+        },
+        "guarantor": {
+            "fullName": "Sarah Balogun",
+            "phoneNumber": "09086489566",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "LSQ253041",
+        "organizationName": "Lendsqr",
+        "fullName": "Chika Ahmed",
+        "email": "chikaahmed@lendstar.com",
+        "phoneNumber": "07058108832",
+        "bvn": "BVN 83277409586",
+        "gender": "male",
+        "maritalStatus": "married",
+        "children": 3,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2022-02-19T19:31:00",
+        "bank": "Providus Bank",
+        "accountBalance": 831211,
+        "userTier": 3,
+        "status": "inactive",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "self-employed",
+            "sector": "HealthTech",
+            "employmentDuration": "1",
+            "officeEmail": "chikaahmed@irorun.com",
+            "monthlyIncome": "300000-400000",
+            "loanRepayment": 17461
+        },
+        "socials": {
+            "twitter": "@chika_ahmed",
+            "facebook": "Chika Ahmed",
+            "instagram": "@chika_ahmed"
+        },
+        "guarantor": {
+            "fullName": "Sarah Ibrahim",
+            "phoneNumber": "09016885384",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "LSR276173",
+        "organizationName": "LendStar",
+        "fullName": "Sarah Effiom",
+        "email": "saraheffiom@lendsqr.com",
+        "phoneNumber": "08063970159",
+        "bvn": "BVN 53564741125",
+        "gender": "female",
+        "maritalStatus": "single",
+        "children": 2,
+        "residenceType": "rented apartment",
+        "dateJoined": "2020-08-23T13:55:00",
+        "bank": "Providus Bank",
+        "accountBalance": 480050,
+        "userTier": 1,
+        "status": "blacklist",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "unemployed",
+            "sector": "EduTech",
+            "employmentDuration": "9",
+            "officeEmail": "saraheffiom@lendstar.com",
+            "monthlyIncome": "10000-50000",
+            "loanRepayment": 16241
+        },
+        "socials": {
+            "twitter": "@sarah_effiom",
+            "facebook": "Sarah Effiom",
+            "instagram": "@sarah_effiom"
+        },
+        "guarantor": {
+            "fullName": "Michael Ogana",
+            "phoneNumber": "09048893769",
+            "relationship": "sister"
+        }
+    },
+    {
+        "userId": "LSQ623015",
+        "organizationName": "Lendsqr",
+        "fullName": "John Ahmed",
+        "email": "johnahmed@lendstar.com",
+        "phoneNumber": "07037586039",
+        "bvn": "BVN 15570932068",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 2,
+        "residenceType": "rented apartment",
+        "dateJoined": "2023-10-15T00:21:00",
+        "bank": "Providus Bank",
+        "accountBalance": 480771,
+        "userTier": 3,
+        "status": "active",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "self-employed",
+            "sector": "AgriTech",
+            "employmentDuration": "7",
+            "officeEmail": "johnahmed@irorun.com",
+            "monthlyIncome": "100000-200000",
+            "loanRepayment": 21591
+        },
+        "socials": {
+            "twitter": "@john_ahmed",
+            "facebook": "John Ahmed",
+            "instagram": "@john_ahmed"
+        },
+        "guarantor": {
+            "fullName": "Uche Balogun",
+            "phoneNumber": "09036233659",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "LSR415177",
+        "organizationName": "LendStar",
+        "fullName": "John Balogun",
+        "email": "johnbalogun@lendsqr.com",
+        "phoneNumber": "07076185327",
+        "bvn": "BVN 42246932490",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 1,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2023-02-06T16:20:00",
+        "bank": "Providus Bank",
+        "accountBalance": 986865,
+        "userTier": 2,
+        "status": "active",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "employed",
+            "sector": "EduTech",
+            "employmentDuration": "1",
+            "officeEmail": "johnbalogun@lendsqr.com",
+            "monthlyIncome": "200000-300000",
+            "loanRepayment": 26014
+        },
+        "socials": {
+            "twitter": "@john_balogun",
+            "facebook": "John Balogun",
+            "instagram": "@john_balogun"
+        },
+        "guarantor": {
+            "fullName": "Sarah Ogana",
+            "phoneNumber": "09028904456",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "IRO981015",
+        "organizationName": "Irorun",
+        "fullName": "Chika Ahmed",
+        "email": "chikaahmed@lendsqr.com",
+        "phoneNumber": "07097940157",
+        "bvn": "BVN 32188864588",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 1,
+        "residenceType": "self-owned",
+        "dateJoined": "2021-12-27T19:49:00",
+        "bank": "Providus Bank",
+        "accountBalance": 738977,
+        "userTier": 2,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "M.Sc",
+            "employmentStatus": "self-employed",
+            "sector": "FinTech",
+            "employmentDuration": "2",
+            "officeEmail": "chikaahmed@lendsqr.com",
+            "monthlyIncome": "50000-100000",
+            "loanRepayment": 46743
+        },
+        "socials": {
+            "twitter": "@chika_ahmed",
+            "facebook": "Chika Ahmed",
+            "instagram": "@chika_ahmed"
+        },
+        "guarantor": {
+            "fullName": "Uche Balogun",
+            "phoneNumber": "09085896193",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "LSR208887",
+        "organizationName": "LendStar",
+        "fullName": "Ebuka Ahmed",
+        "email": "ebukaahmed@lendstar.com",
+        "phoneNumber": "08027717604",
+        "bvn": "BVN 39105091434",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 0,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2022-07-26T00:01:00",
+        "bank": "Providus Bank",
+        "accountBalance": 441389,
+        "userTier": 3,
+        "status": "inactive",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "employed",
+            "sector": "FinTech",
+            "employmentDuration": "9",
+            "officeEmail": "ebukaahmed@lendsqr.com",
+            "monthlyIncome": "400000-500000",
+            "loanRepayment": 49839
+        },
+        "socials": {
+            "twitter": "@ebuka_ahmed",
+            "facebook": "Ebuka Ahmed",
+            "instagram": "@ebuka_ahmed"
+        },
+        "guarantor": {
+            "fullName": "Uche Ahmed",
+            "phoneNumber": "09061229644",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "LSR261460",
+        "organizationName": "LendStar",
+        "fullName": "Grace Balogun",
+        "email": "gracebalogun@lendsqr.com",
+        "phoneNumber": "07068041356",
+        "bvn": "BVN 53915967341",
+        "gender": "male",
+        "maritalStatus": "married",
+        "children": 1,
+        "residenceType": "self-owned",
+        "dateJoined": "2020-07-01T11:20:00",
+        "bank": "Providus Bank",
+        "accountBalance": 930880,
+        "userTier": 3,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "employed",
+            "sector": "HealthTech",
+            "employmentDuration": "10",
+            "officeEmail": "gracebalogun@irorun.com",
+            "monthlyIncome": "300000-400000",
+            "loanRepayment": 13206
+        },
+        "socials": {
+            "twitter": "@grace_balogun",
+            "facebook": "Grace Balogun",
+            "instagram": "@grace_balogun"
+        },
+        "guarantor": {
+            "fullName": "Sarah Ahmed",
+            "phoneNumber": "09047836785",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "LSR210398",
+        "organizationName": "LendStar",
+        "fullName": "Grace Effiom",
+        "email": "graceeffiom@lendstar.com",
+        "phoneNumber": "08094167193",
+        "bvn": "BVN 74265567204",
+        "gender": "male",
+        "maritalStatus": "married",
+        "children": 1,
+        "residenceType": "self-owned",
+        "dateJoined": "2020-09-21T10:39:00",
+        "bank": "Providus Bank",
+        "accountBalance": 990205,
+        "userTier": 1,
+        "status": "active",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "self-employed",
+            "sector": "EduTech",
+            "employmentDuration": "3",
+            "officeEmail": "graceeffiom@lendsqr.com",
+            "monthlyIncome": "10000-50000",
+            "loanRepayment": 26762
+        },
+        "socials": {
+            "twitter": "@grace_effiom",
+            "facebook": "Grace Effiom",
+            "instagram": "@grace_effiom"
+        },
+        "guarantor": {
+            "fullName": "Michael Ahmed",
+            "phoneNumber": "07063387434",
+            "relationship": "sister"
+        }
+    },
+    {
+        "userId": "LSQ371861",
+        "organizationName": "Lendsqr",
+        "fullName": "John Ibrahim",
+        "email": "johnibrahim@irorun.com",
+        "phoneNumber": "08090742223",
+        "bvn": "BVN 61041075398",
+        "gender": "male",
+        "maritalStatus": "single",
+        "children": 1,
+        "residenceType": "rented apartment",
+        "dateJoined": "2020-11-04T22:10:00",
+        "bank": "Providus Bank",
+        "accountBalance": 674082,
+        "userTier": 0,
+        "status": "active",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "unemployed",
+            "sector": "AgriTech",
+            "employmentDuration": "3",
+            "officeEmail": "johnibrahim@irorun.com",
+            "monthlyIncome": "10000-50000",
+            "loanRepayment": 22521
+        },
+        "socials": {
+            "twitter": "@john_ibrahim",
+            "facebook": "John Ibrahim",
+            "instagram": "@john_ibrahim"
+        },
+        "guarantor": {
+            "fullName": "Debby Balogun",
+            "phoneNumber": "07018085090",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "IRO741084",
+        "organizationName": "Irorun",
+        "fullName": "Ebuka Ibrahim",
+        "email": "ebukaibrahim@lendsqr.com",
+        "phoneNumber": "08074205813",
+        "bvn": "BVN 32726522849",
+        "gender": "male",
+        "maritalStatus": "married",
+        "children": 1,
+        "residenceType": "rented apartment",
+        "dateJoined": "2021-04-02T06:09:00",
+        "bank": "Providus Bank",
+        "accountBalance": 516526,
+        "userTier": 1,
+        "status": "inactive",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "employed",
+            "sector": "FinTech",
+            "employmentDuration": "5",
+            "officeEmail": "ebukaibrahim@irorun.com",
+            "monthlyIncome": "400000-500000",
+            "loanRepayment": 22259
+        },
+        "socials": {
+            "twitter": "@ebuka_ibrahim",
+            "facebook": "Ebuka Ibrahim",
+            "instagram": "@ebuka_ibrahim"
+        },
+        "guarantor": {
+            "fullName": "Uche Ahmed",
+            "phoneNumber": "09019871580",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "LSQ250624",
+        "organizationName": "Lendsqr",
+        "fullName": "Grace Balogun",
+        "email": "gracebalogun@irorun.com",
+        "phoneNumber": "08052723007",
+        "bvn": "BVN 35473817066",
+        "gender": "female",
+        "maritalStatus": "single",
+        "children": 2,
+        "residenceType": "self-owned",
+        "dateJoined": "2023-11-18T22:07:00",
+        "bank": "Providus Bank",
+        "accountBalance": 984142,
+        "userTier": 2,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "self-employed",
+            "sector": "AgriTech",
+            "employmentDuration": "7",
+            "officeEmail": "gracebalogun@lendsqr.com",
+            "monthlyIncome": "10000-50000",
+            "loanRepayment": 40237
+        },
+        "socials": {
+            "twitter": "@grace_balogun",
+            "facebook": "Grace Balogun",
+            "instagram": "@grace_balogun"
+        },
+        "guarantor": {
+            "fullName": "Michael Ibrahim",
+            "phoneNumber": "07070226363",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "LSR875357",
+        "organizationName": "LendStar",
+        "fullName": "Grace Ogana",
+        "email": "graceogana@lendstar.com",
+        "phoneNumber": "09079076407",
+        "bvn": "BVN 55312225064",
+        "gender": "female",
+        "maritalStatus": "single",
+        "children": 0,
+        "residenceType": "rented apartment",
+        "dateJoined": "2022-11-24T01:16:00",
+        "bank": "Providus Bank",
+        "accountBalance": 455012,
+        "userTier": 2,
+        "status": "inactive",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "employed",
+            "sector": "HealthTech",
+            "employmentDuration": "2",
+            "officeEmail": "graceogana@lendsqr.com",
+            "monthlyIncome": "400000-500000",
+            "loanRepayment": 22521
+        },
+        "socials": {
+            "twitter": "@grace_ogana",
+            "facebook": "Grace Ogana",
+            "instagram": "@grace_ogana"
+        },
+        "guarantor": {
+            "fullName": "Uche Effiom",
+            "phoneNumber": "09026885324",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "IRO373132",
+        "organizationName": "Irorun",
+        "fullName": "John Ibrahim",
+        "email": "johnibrahim@lendsqr.com",
+        "phoneNumber": "09077517252",
+        "bvn": "BVN 73052189010",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 2,
+        "residenceType": "rented apartment",
+        "dateJoined": "2021-02-13T23:17:00",
+        "bank": "Providus Bank",
+        "accountBalance": 521981,
+        "userTier": 2,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "self-employed",
+            "sector": "AgriTech",
+            "employmentDuration": "6",
+            "officeEmail": "johnibrahim@lendstar.com",
+            "monthlyIncome": "50000-100000",
+            "loanRepayment": 49709
+        },
+        "socials": {
+            "twitter": "@john_ibrahim",
+            "facebook": "John Ibrahim",
+            "instagram": "@john_ibrahim"
+        },
+        "guarantor": {
+            "fullName": "Debby Balogun",
+            "phoneNumber": "08050437865",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "LSQ675462",
+        "organizationName": "Lendsqr",
+        "fullName": "Grace Ahmed",
+        "email": "graceahmed@lendsqr.com",
+        "phoneNumber": "09071862349",
+        "bvn": "BVN 14155407132",
+        "gender": "male",
+        "maritalStatus": "married",
+        "children": 1,
+        "residenceType": "self-owned",
+        "dateJoined": "2023-12-06T02:24:00",
+        "bank": "Providus Bank",
+        "accountBalance": 794850,
+        "userTier": 0,
+        "status": "active",
+        "educationEmployment": {
+            "level": "M.Sc",
+            "employmentStatus": "self-employed",
+            "sector": "AgriTech",
+            "employmentDuration": "6",
+            "officeEmail": "graceahmed@irorun.com",
+            "monthlyIncome": "10000-50000",
+            "loanRepayment": 45432
+        },
+        "socials": {
+            "twitter": "@grace_ahmed",
+            "facebook": "Grace Ahmed",
+            "instagram": "@grace_ahmed"
+        },
+        "guarantor": {
+            "fullName": "Sarah Ibrahim",
+            "phoneNumber": "07050594452",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "LSQ412026",
+        "organizationName": "Lendsqr",
+        "fullName": "John Ogana",
+        "email": "johnogana@irorun.com",
+        "phoneNumber": "09045671334",
+        "bvn": "BVN 96740735038",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 3,
+        "residenceType": "rented apartment",
+        "dateJoined": "2021-12-22T05:30:00",
+        "bank": "Providus Bank",
+        "accountBalance": 726550,
+        "userTier": 0,
+        "status": "inactive",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "unemployed",
+            "sector": "FinTech",
+            "employmentDuration": "5",
+            "officeEmail": "johnogana@irorun.com",
+            "monthlyIncome": "200000-300000",
+            "loanRepayment": 20226
+        },
+        "socials": {
+            "twitter": "@john_ogana",
+            "facebook": "John Ogana",
+            "instagram": "@john_ogana"
+        },
+        "guarantor": {
+            "fullName": "Uche Effiom",
+            "phoneNumber": "08058549065",
+            "relationship": "sister"
+        }
+    },
+    {
+        "userId": "LSR232964",
+        "organizationName": "LendStar",
+        "fullName": "Grace Ogana",
+        "email": "graceogana@lendstar.com",
+        "phoneNumber": "09048421526",
+        "bvn": "BVN 68670140888",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 2,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2022-03-04T13:16:00",
+        "bank": "Providus Bank",
+        "accountBalance": 155637,
+        "userTier": 2,
+        "status": "inactive",
+        "educationEmployment": {
+            "level": "M.Sc",
+            "employmentStatus": "unemployed",
+            "sector": "HealthTech",
+            "employmentDuration": "10",
+            "officeEmail": "graceogana@irorun.com",
+            "monthlyIncome": "200000-300000",
+            "loanRepayment": 30412
+        },
+        "socials": {
+            "twitter": "@grace_ogana",
+            "facebook": "Grace Ogana",
+            "instagram": "@grace_ogana"
+        },
+        "guarantor": {
+            "fullName": "Michael Ibrahim",
+            "phoneNumber": "07055958671",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "LSR254332",
+        "organizationName": "LendStar",
+        "fullName": "Sarah Ibrahim",
+        "email": "sarahibrahim@lendsqr.com",
+        "phoneNumber": "08088706385",
+        "bvn": "BVN 16381702033",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 2,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2023-03-30T19:33:00",
+        "bank": "Providus Bank",
+        "accountBalance": 844315,
+        "userTier": 1,
+        "status": "inactive",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "unemployed",
+            "sector": "HealthTech",
+            "employmentDuration": "2",
+            "officeEmail": "sarahibrahim@irorun.com",
+            "monthlyIncome": "100000-200000",
+            "loanRepayment": 22641
+        },
+        "socials": {
+            "twitter": "@sarah_ibrahim",
+            "facebook": "Sarah Ibrahim",
+            "instagram": "@sarah_ibrahim"
+        },
+        "guarantor": {
+            "fullName": "Debby Ibrahim",
+            "phoneNumber": "07032931394",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "LSQ261003",
+        "organizationName": "Lendsqr",
+        "fullName": "Sarah Balogun",
+        "email": "sarahbalogun@lendsqr.com",
+        "phoneNumber": "09089435240",
+        "bvn": "BVN 51541375731",
+        "gender": "male",
+        "maritalStatus": "married",
+        "children": 3,
+        "residenceType": "rented apartment",
+        "dateJoined": "2021-10-01T23:47:00",
+        "bank": "Providus Bank",
+        "accountBalance": 107988,
+        "userTier": 0,
+        "status": "inactive",
+        "educationEmployment": {
+            "level": "M.Sc",
+            "employmentStatus": "self-employed",
+            "sector": "AgriTech",
+            "employmentDuration": "10",
+            "officeEmail": "sarahbalogun@lendstar.com",
+            "monthlyIncome": "400000-500000",
+            "loanRepayment": 21322
+        },
+        "socials": {
+            "twitter": "@sarah_balogun",
+            "facebook": "Sarah Balogun",
+            "instagram": "@sarah_balogun"
+        },
+        "guarantor": {
+            "fullName": "Uche Balogun",
+            "phoneNumber": "09035827435",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "LSR137312",
+        "organizationName": "LendStar",
+        "fullName": "John Effiom",
+        "email": "johneffiom@irorun.com",
+        "phoneNumber": "09056801875",
+        "bvn": "BVN 40093554744",
+        "gender": "male",
+        "maritalStatus": "married",
+        "children": 3,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2021-03-09T18:22:00",
+        "bank": "Providus Bank",
+        "accountBalance": 365398,
+        "userTier": 2,
+        "status": "inactive",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "self-employed",
+            "sector": "FinTech",
+            "employmentDuration": "10",
+            "officeEmail": "johneffiom@irorun.com",
+            "monthlyIncome": "300000-400000",
+            "loanRepayment": 47093
+        },
+        "socials": {
+            "twitter": "@john_effiom",
+            "facebook": "John Effiom",
+            "instagram": "@john_effiom"
+        },
+        "guarantor": {
+            "fullName": "Michael Ahmed",
+            "phoneNumber": "09083789775",
+            "relationship": "sister"
+        }
+    },
+    {
+        "userId": "LSQ921002",
+        "organizationName": "Lendsqr",
+        "fullName": "Ebuka Effiom",
+        "email": "ebukaeffiom@lendsqr.com",
+        "phoneNumber": "08024368342",
+        "bvn": "BVN 93465247814",
+        "gender": "male",
+        "maritalStatus": "single",
+        "children": 2,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2023-12-12T14:07:00",
+        "bank": "Providus Bank",
+        "accountBalance": 743401,
+        "userTier": 2,
+        "status": "blacklist",
+        "educationEmployment": {
+            "level": "M.Sc",
+            "employmentStatus": "self-employed",
+            "sector": "FinTech",
+            "employmentDuration": "4",
+            "officeEmail": "ebukaeffiom@lendsqr.com",
+            "monthlyIncome": "100000-200000",
+            "loanRepayment": 44942
+        },
+        "socials": {
+            "twitter": "@ebuka_effiom",
+            "facebook": "Ebuka Effiom",
+            "instagram": "@ebuka_effiom"
+        },
+        "guarantor": {
+            "fullName": "Michael Ibrahim",
+            "phoneNumber": "09084124752",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "LSR624869",
+        "organizationName": "LendStar",
+        "fullName": "Chika Ahmed",
+        "email": "chikaahmed@irorun.com",
+        "phoneNumber": "07021038103",
+        "bvn": "BVN 54091453480",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 3,
+        "residenceType": "self-owned",
+        "dateJoined": "2023-07-10T09:14:00",
+        "bank": "Providus Bank",
+        "accountBalance": 934168,
+        "userTier": 0,
+        "status": "inactive",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "self-employed",
+            "sector": "AgriTech",
+            "employmentDuration": "7",
+            "officeEmail": "chikaahmed@irorun.com",
+            "monthlyIncome": "400000-500000",
+            "loanRepayment": 23203
+        },
+        "socials": {
+            "twitter": "@chika_ahmed",
+            "facebook": "Chika Ahmed",
+            "instagram": "@chika_ahmed"
+        },
+        "guarantor": {
+            "fullName": "Michael Ogana",
+            "phoneNumber": "09071187042",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "LSQ558434",
+        "organizationName": "Lendsqr",
+        "fullName": "Grace Ahmed",
+        "email": "graceahmed@lendstar.com",
+        "phoneNumber": "08042232252",
+        "bvn": "BVN 83987451669",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 3,
+        "residenceType": "self-owned",
+        "dateJoined": "2020-09-26T17:01:00",
+        "bank": "Providus Bank",
+        "accountBalance": 431369,
+        "userTier": 2,
+        "status": "active",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "self-employed",
+            "sector": "EduTech",
+            "employmentDuration": "8",
+            "officeEmail": "graceahmed@lendsqr.com",
+            "monthlyIncome": "200000-300000",
+            "loanRepayment": 11086
+        },
+        "socials": {
+            "twitter": "@grace_ahmed",
+            "facebook": "Grace Ahmed",
+            "instagram": "@grace_ahmed"
+        },
+        "guarantor": {
+            "fullName": "Uche Ahmed",
+            "phoneNumber": "08064582556",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "LSR486733",
+        "organizationName": "LendStar",
+        "fullName": "John Effiom",
+        "email": "johneffiom@lendstar.com",
+        "phoneNumber": "09052510242",
+        "bvn": "BVN 28304502727",
+        "gender": "male",
+        "maritalStatus": "single",
+        "children": 3,
+        "residenceType": "self-owned",
+        "dateJoined": "2020-01-05T17:05:00",
+        "bank": "Providus Bank",
+        "accountBalance": 379282,
+        "userTier": 0,
+        "status": "active",
+        "educationEmployment": {
+            "level": "M.Sc",
+            "employmentStatus": "employed",
+            "sector": "FinTech",
+            "employmentDuration": "3",
+            "officeEmail": "johneffiom@lendsqr.com",
+            "monthlyIncome": "200000-300000",
+            "loanRepayment": 47573
+        },
+        "socials": {
+            "twitter": "@john_effiom",
+            "facebook": "John Effiom",
+            "instagram": "@john_effiom"
+        },
+        "guarantor": {
+            "fullName": "Debby Ahmed",
+            "phoneNumber": "08083634436",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "LSQ958720",
+        "organizationName": "Lendsqr",
+        "fullName": "Ebuka Ahmed",
+        "email": "ebukaahmed@irorun.com",
+        "phoneNumber": "08063730310",
+        "bvn": "BVN 11449715834",
+        "gender": "female",
+        "maritalStatus": "single",
+        "children": 2,
+        "residenceType": "self-owned",
+        "dateJoined": "2021-10-03T22:05:00",
+        "bank": "Providus Bank",
+        "accountBalance": 451587,
+        "userTier": 2,
+        "status": "blacklist",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "employed",
+            "sector": "EduTech",
+            "employmentDuration": "5",
+            "officeEmail": "ebukaahmed@irorun.com",
+            "monthlyIncome": "50000-100000",
+            "loanRepayment": 11663
+        },
+        "socials": {
+            "twitter": "@ebuka_ahmed",
+            "facebook": "Ebuka Ahmed",
+            "instagram": "@ebuka_ahmed"
+        },
+        "guarantor": {
+            "fullName": "Michael Ahmed",
+            "phoneNumber": "09090271392",
+            "relationship": "sister"
+        }
+    },
+    {
+        "userId": "LSR625227",
+        "organizationName": "LendStar",
+        "fullName": "Ebuka Ahmed",
+        "email": "ebukaahmed@lendsqr.com",
+        "phoneNumber": "08024340847",
+        "bvn": "BVN 80509423216",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 0,
+        "residenceType": "rented apartment",
+        "dateJoined": "2022-12-25T11:32:00",
+        "bank": "Providus Bank",
+        "accountBalance": 703657,
+        "userTier": 2,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "employed",
+            "sector": "EduTech",
+            "employmentDuration": "4",
+            "officeEmail": "ebukaahmed@lendsqr.com",
+            "monthlyIncome": "50000-100000",
+            "loanRepayment": 28398
+        },
+        "socials": {
+            "twitter": "@ebuka_ahmed",
+            "facebook": "Ebuka Ahmed",
+            "instagram": "@ebuka_ahmed"
+        },
+        "guarantor": {
+            "fullName": "Uche Balogun",
+            "phoneNumber": "09046786857",
+            "relationship": "sister"
+        }
+    },
+    {
+        "userId": "LSQ654687",
+        "organizationName": "Lendsqr",
+        "fullName": "Grace Ibrahim",
+        "email": "graceibrahim@irorun.com",
+        "phoneNumber": "08035472464",
+        "bvn": "BVN 31182117507",
+        "gender": "male",
+        "maritalStatus": "single",
+        "children": 1,
+        "residenceType": "rented apartment",
+        "dateJoined": "2021-10-01T01:50:00",
+        "bank": "Providus Bank",
+        "accountBalance": 947989,
+        "userTier": 2,
+        "status": "inactive",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "self-employed",
+            "sector": "EduTech",
+            "employmentDuration": "8",
+            "officeEmail": "graceibrahim@irorun.com",
+            "monthlyIncome": "10000-50000",
+            "loanRepayment": 25757
+        },
+        "socials": {
+            "twitter": "@grace_ibrahim",
+            "facebook": "Grace Ibrahim",
+            "instagram": "@grace_ibrahim"
+        },
+        "guarantor": {
+            "fullName": "Michael Balogun",
+            "phoneNumber": "07040884580",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "IRO604433",
+        "organizationName": "Irorun",
+        "fullName": "Grace Ahmed",
+        "email": "graceahmed@lendstar.com",
+        "phoneNumber": "08079980266",
+        "bvn": "BVN 49725632835",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 3,
+        "residenceType": "self-owned",
+        "dateJoined": "2021-08-18T21:25:00",
+        "bank": "Providus Bank",
+        "accountBalance": 687253,
+        "userTier": 3,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "unemployed",
+            "sector": "FinTech",
+            "employmentDuration": "7",
+            "officeEmail": "graceahmed@lendstar.com",
+            "monthlyIncome": "50000-100000",
+            "loanRepayment": 12808
+        },
+        "socials": {
+            "twitter": "@grace_ahmed",
+            "facebook": "Grace Ahmed",
+            "instagram": "@grace_ahmed"
+        },
+        "guarantor": {
+            "fullName": "Michael Ibrahim",
+            "phoneNumber": "07077303173",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "LSQ198968",
+        "organizationName": "Lendsqr",
+        "fullName": "Grace Ibrahim",
+        "email": "graceibrahim@irorun.com",
+        "phoneNumber": "08023150033",
+        "bvn": "BVN 84715894576",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 0,
+        "residenceType": "rented apartment",
+        "dateJoined": "2021-07-31T21:54:00",
+        "bank": "Providus Bank",
+        "accountBalance": 147818,
+        "userTier": 1,
+        "status": "inactive",
+        "educationEmployment": {
+            "level": "M.Sc",
+            "employmentStatus": "unemployed",
+            "sector": "HealthTech",
+            "employmentDuration": "4",
+            "officeEmail": "graceibrahim@lendstar.com",
+            "monthlyIncome": "50000-100000",
+            "loanRepayment": 18510
+        },
+        "socials": {
+            "twitter": "@grace_ibrahim",
+            "facebook": "Grace Ibrahim",
+            "instagram": "@grace_ibrahim"
+        },
+        "guarantor": {
+            "fullName": "Debby Ibrahim",
+            "phoneNumber": "09081050651",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "LSR179717",
+        "organizationName": "LendStar",
+        "fullName": "Ebuka Balogun",
+        "email": "ebukabalogun@irorun.com",
+        "phoneNumber": "07060986923",
+        "bvn": "BVN 42907957479",
+        "gender": "female",
+        "maritalStatus": "single",
+        "children": 3,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2022-08-06T21:50:00",
+        "bank": "Providus Bank",
+        "accountBalance": 345038,
+        "userTier": 0,
+        "status": "inactive",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "employed",
+            "sector": "AgriTech",
+            "employmentDuration": "6",
+            "officeEmail": "ebukabalogun@irorun.com",
+            "monthlyIncome": "100000-200000",
+            "loanRepayment": 23314
+        },
+        "socials": {
+            "twitter": "@ebuka_balogun",
+            "facebook": "Ebuka Balogun",
+            "instagram": "@ebuka_balogun"
+        },
+        "guarantor": {
+            "fullName": "Uche Effiom",
+            "phoneNumber": "09059554487",
+            "relationship": "sister"
+        }
+    },
+    {
+        "userId": "LSR101220",
+        "organizationName": "LendStar",
+        "fullName": "John Ibrahim",
+        "email": "johnibrahim@lendstar.com",
+        "phoneNumber": "07094167934",
+        "bvn": "BVN 35438938854",
+        "gender": "male",
+        "maritalStatus": "married",
+        "children": 2,
+        "residenceType": "rented apartment",
+        "dateJoined": "2021-07-23T22:46:00",
+        "bank": "Providus Bank",
+        "accountBalance": 462491,
+        "userTier": 1,
+        "status": "inactive",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "employed",
+            "sector": "FinTech",
+            "employmentDuration": "6",
+            "officeEmail": "johnibrahim@lendsqr.com",
+            "monthlyIncome": "50000-100000",
+            "loanRepayment": 22982
+        },
+        "socials": {
+            "twitter": "@john_ibrahim",
+            "facebook": "John Ibrahim",
+            "instagram": "@john_ibrahim"
+        },
+        "guarantor": {
+            "fullName": "Uche Balogun",
+            "phoneNumber": "08080532835",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "LSR693991",
+        "organizationName": "LendStar",
+        "fullName": "Ebuka Ahmed",
+        "email": "ebukaahmed@irorun.com",
+        "phoneNumber": "09022038048",
+        "bvn": "BVN 78150632681",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 1,
+        "residenceType": "self-owned",
+        "dateJoined": "2022-09-23T18:17:00",
+        "bank": "Providus Bank",
+        "accountBalance": 457120,
+        "userTier": 0,
+        "status": "blacklist",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "self-employed",
+            "sector": "HealthTech",
+            "employmentDuration": "3",
+            "officeEmail": "ebukaahmed@lendsqr.com",
+            "monthlyIncome": "300000-400000",
+            "loanRepayment": 24274
+        },
+        "socials": {
+            "twitter": "@ebuka_ahmed",
+            "facebook": "Ebuka Ahmed",
+            "instagram": "@ebuka_ahmed"
+        },
+        "guarantor": {
+            "fullName": "Sarah Ahmed",
+            "phoneNumber": "08056501280",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "LSR488821",
+        "organizationName": "LendStar",
+        "fullName": "Sarah Balogun",
+        "email": "sarahbalogun@lendsqr.com",
+        "phoneNumber": "09074074041",
+        "bvn": "BVN 19231759605",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 0,
+        "residenceType": "rented apartment",
+        "dateJoined": "2023-06-30T02:13:00",
+        "bank": "Providus Bank",
+        "accountBalance": 427183,
+        "userTier": 0,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "self-employed",
+            "sector": "EduTech",
+            "employmentDuration": "5",
+            "officeEmail": "sarahbalogun@lendsqr.com",
+            "monthlyIncome": "100000-200000",
+            "loanRepayment": 36737
+        },
+        "socials": {
+            "twitter": "@sarah_balogun",
+            "facebook": "Sarah Balogun",
+            "instagram": "@sarah_balogun"
+        },
+        "guarantor": {
+            "fullName": "Sarah Ibrahim",
+            "phoneNumber": "07058244324",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "IRO407124",
+        "organizationName": "Irorun",
+        "fullName": "Ebuka Ogana",
+        "email": "ebukaogana@lendsqr.com",
+        "phoneNumber": "09034572125",
+        "bvn": "BVN 57550771976",
+        "gender": "male",
+        "maritalStatus": "single",
+        "children": 0,
+        "residenceType": "self-owned",
+        "dateJoined": "2021-11-19T13:39:00",
+        "bank": "Providus Bank",
+        "accountBalance": 938371,
+        "userTier": 2,
+        "status": "blacklist",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "employed",
+            "sector": "AgriTech",
+            "employmentDuration": "1",
+            "officeEmail": "ebukaogana@irorun.com",
+            "monthlyIncome": "100000-200000",
+            "loanRepayment": 48054
+        },
+        "socials": {
+            "twitter": "@ebuka_ogana",
+            "facebook": "Ebuka Ogana",
+            "instagram": "@ebuka_ogana"
+        },
+        "guarantor": {
+            "fullName": "Uche Effiom",
+            "phoneNumber": "08038677691",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "LSQ336067",
+        "organizationName": "Lendsqr",
+        "fullName": "John Effiom",
+        "email": "johneffiom@lendstar.com",
+        "phoneNumber": "09091211934",
+        "bvn": "BVN 58061337891",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 3,
+        "residenceType": "rented apartment",
+        "dateJoined": "2023-12-07T18:18:00",
+        "bank": "Providus Bank",
+        "accountBalance": 515957,
+        "userTier": 0,
+        "status": "blacklist",
+        "educationEmployment": {
+            "level": "M.Sc",
+            "employmentStatus": "unemployed",
+            "sector": "AgriTech",
+            "employmentDuration": "6",
+            "officeEmail": "johneffiom@lendsqr.com",
+            "monthlyIncome": "400000-500000",
+            "loanRepayment": 28985
+        },
+        "socials": {
+            "twitter": "@john_effiom",
+            "facebook": "John Effiom",
+            "instagram": "@john_effiom"
+        },
+        "guarantor": {
+            "fullName": "Michael Effiom",
+            "phoneNumber": "07014819562",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "LSQ639978",
+        "organizationName": "Lendsqr",
+        "fullName": "Grace Ogana",
+        "email": "graceogana@lendsqr.com",
+        "phoneNumber": "07086578885",
+        "bvn": "BVN 83396386913",
+        "gender": "female",
+        "maritalStatus": "single",
+        "children": 3,
+        "residenceType": "self-owned",
+        "dateJoined": "2023-05-08T11:25:00",
+        "bank": "Providus Bank",
+        "accountBalance": 291893,
+        "userTier": 1,
+        "status": "active",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "unemployed",
+            "sector": "FinTech",
+            "employmentDuration": "1",
+            "officeEmail": "graceogana@irorun.com",
+            "monthlyIncome": "400000-500000",
+            "loanRepayment": 24485
+        },
+        "socials": {
+            "twitter": "@grace_ogana",
+            "facebook": "Grace Ogana",
+            "instagram": "@grace_ogana"
+        },
+        "guarantor": {
+            "fullName": "Debby Ahmed",
+            "phoneNumber": "09076154480",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "LSQ966461",
+        "organizationName": "Lendsqr",
+        "fullName": "Ebuka Ahmed",
+        "email": "ebukaahmed@irorun.com",
+        "phoneNumber": "07098657620",
+        "bvn": "BVN 46979794469",
+        "gender": "female",
+        "maritalStatus": "single",
+        "children": 1,
+        "residenceType": "rented apartment",
+        "dateJoined": "2020-04-18T22:52:00",
+        "bank": "Providus Bank",
+        "accountBalance": 993768,
+        "userTier": 1,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "employed",
+            "sector": "HealthTech",
+            "employmentDuration": "5",
+            "officeEmail": "ebukaahmed@lendstar.com",
+            "monthlyIncome": "100000-200000",
+            "loanRepayment": 43445
+        },
+        "socials": {
+            "twitter": "@ebuka_ahmed",
+            "facebook": "Ebuka Ahmed",
+            "instagram": "@ebuka_ahmed"
+        },
+        "guarantor": {
+            "fullName": "Uche Effiom",
+            "phoneNumber": "09047621123",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "LSQ481316",
+        "organizationName": "Lendsqr",
+        "fullName": "Grace Balogun",
+        "email": "gracebalogun@lendstar.com",
+        "phoneNumber": "08056087646",
+        "bvn": "BVN 20639304981",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 1,
+        "residenceType": "rented apartment",
+        "dateJoined": "2022-02-02T19:13:00",
+        "bank": "Providus Bank",
+        "accountBalance": 758413,
+        "userTier": 3,
+        "status": "active",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "unemployed",
+            "sector": "EduTech",
+            "employmentDuration": "8",
+            "officeEmail": "gracebalogun@irorun.com",
+            "monthlyIncome": "100000-200000",
+            "loanRepayment": 25207
+        },
+        "socials": {
+            "twitter": "@grace_balogun",
+            "facebook": "Grace Balogun",
+            "instagram": "@grace_balogun"
+        },
+        "guarantor": {
+            "fullName": "Sarah Ibrahim",
+            "phoneNumber": "07048203794",
+            "relationship": "sister"
+        }
+    },
+    {
+        "userId": "IRO165532",
+        "organizationName": "Irorun",
+        "fullName": "John Ogana",
+        "email": "johnogana@lendstar.com",
+        "phoneNumber": "07074891618",
+        "bvn": "BVN 93438641245",
+        "gender": "male",
+        "maritalStatus": "married",
+        "children": 1,
+        "residenceType": "rented apartment",
+        "dateJoined": "2020-08-24T03:53:00",
+        "bank": "Providus Bank",
+        "accountBalance": 190315,
+        "userTier": 0,
+        "status": "inactive",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "self-employed",
+            "sector": "FinTech",
+            "employmentDuration": "10",
+            "officeEmail": "johnogana@lendstar.com",
+            "monthlyIncome": "50000-100000",
+            "loanRepayment": 48734
+        },
+        "socials": {
+            "twitter": "@john_ogana",
+            "facebook": "John Ogana",
+            "instagram": "@john_ogana"
+        },
+        "guarantor": {
+            "fullName": "Debby Ahmed",
+            "phoneNumber": "07085544886",
+            "relationship": "sister"
+        }
+    },
+    {
+        "userId": "IRO973678",
+        "organizationName": "Irorun",
+        "fullName": "Ebuka Ibrahim",
+        "email": "ebukaibrahim@lendstar.com",
+        "phoneNumber": "09031467704",
+        "bvn": "BVN 94729448104",
+        "gender": "male",
+        "maritalStatus": "single",
+        "children": 0,
+        "residenceType": "self-owned",
+        "dateJoined": "2022-03-24T22:51:00",
+        "bank": "Providus Bank",
+        "accountBalance": 642206,
+        "userTier": 1,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "M.Sc",
+            "employmentStatus": "employed",
+            "sector": "FinTech",
+            "employmentDuration": "6",
+            "officeEmail": "ebukaibrahim@lendsqr.com",
+            "monthlyIncome": "200000-300000",
+            "loanRepayment": 34078
+        },
+        "socials": {
+            "twitter": "@ebuka_ibrahim",
+            "facebook": "Ebuka Ibrahim",
+            "instagram": "@ebuka_ibrahim"
+        },
+        "guarantor": {
+            "fullName": "Michael Effiom",
+            "phoneNumber": "07034796653",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "IRO639733",
+        "organizationName": "Irorun",
+        "fullName": "Sarah Ibrahim",
+        "email": "sarahibrahim@lendstar.com",
+        "phoneNumber": "08043493782",
+        "bvn": "BVN 66172156960",
+        "gender": "male",
+        "maritalStatus": "single",
+        "children": 0,
+        "residenceType": "self-owned",
+        "dateJoined": "2020-07-04T18:20:00",
+        "bank": "Providus Bank",
+        "accountBalance": 974087,
+        "userTier": 1,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "employed",
+            "sector": "AgriTech",
+            "employmentDuration": "5",
+            "officeEmail": "sarahibrahim@lendsqr.com",
+            "monthlyIncome": "200000-300000",
+            "loanRepayment": 43383
+        },
+        "socials": {
+            "twitter": "@sarah_ibrahim",
+            "facebook": "Sarah Ibrahim",
+            "instagram": "@sarah_ibrahim"
+        },
+        "guarantor": {
+            "fullName": "Debby Ogana",
+            "phoneNumber": "08080093263",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "LSR791249",
+        "organizationName": "LendStar",
+        "fullName": "John Effiom",
+        "email": "johneffiom@lendsqr.com",
+        "phoneNumber": "09085592737",
+        "bvn": "BVN 28674197867",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 2,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2021-01-19T15:21:00",
+        "bank": "Providus Bank",
+        "accountBalance": 289463,
+        "userTier": 1,
+        "status": "inactive",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "employed",
+            "sector": "AgriTech",
+            "employmentDuration": "5",
+            "officeEmail": "johneffiom@irorun.com",
+            "monthlyIncome": "100000-200000",
+            "loanRepayment": 18310
+        },
+        "socials": {
+            "twitter": "@john_effiom",
+            "facebook": "John Effiom",
+            "instagram": "@john_effiom"
+        },
+        "guarantor": {
+            "fullName": "Uche Ibrahim",
+            "phoneNumber": "08021960607",
+            "relationship": "sister"
+        }
+    },
+    {
+        "userId": "IRO712088",
+        "organizationName": "Irorun",
+        "fullName": "Sarah Effiom",
+        "email": "saraheffiom@irorun.com",
+        "phoneNumber": "09018507562",
+        "bvn": "BVN 29498954602",
+        "gender": "male",
+        "maritalStatus": "single",
+        "children": 3,
+        "residenceType": "self-owned",
+        "dateJoined": "2022-09-24T21:16:00",
+        "bank": "Providus Bank",
+        "accountBalance": 341507,
+        "userTier": 1,
+        "status": "blacklist",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "unemployed",
+            "sector": "AgriTech",
+            "employmentDuration": "9",
+            "officeEmail": "saraheffiom@lendstar.com",
+            "monthlyIncome": "50000-100000",
+            "loanRepayment": 18547
+        },
+        "socials": {
+            "twitter": "@sarah_effiom",
+            "facebook": "Sarah Effiom",
+            "instagram": "@sarah_effiom"
+        },
+        "guarantor": {
+            "fullName": "Sarah Ahmed",
+            "phoneNumber": "07036702926",
+            "relationship": "sister"
+        }
+    },
+    {
+        "userId": "LSQ684965",
+        "organizationName": "Lendsqr",
+        "fullName": "Grace Ibrahim",
+        "email": "graceibrahim@irorun.com",
+        "phoneNumber": "08063424484",
+        "bvn": "BVN 12651381815",
+        "gender": "female",
+        "maritalStatus": "single",
+        "children": 2,
+        "residenceType": "rented apartment",
+        "dateJoined": "2022-09-11T20:23:00",
+        "bank": "Providus Bank",
+        "accountBalance": 926028,
+        "userTier": 1,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "unemployed",
+            "sector": "EduTech",
+            "employmentDuration": "2",
+            "officeEmail": "graceibrahim@irorun.com",
+            "monthlyIncome": "100000-200000",
+            "loanRepayment": 37533
+        },
+        "socials": {
+            "twitter": "@grace_ibrahim",
+            "facebook": "Grace Ibrahim",
+            "instagram": "@grace_ibrahim"
+        },
+        "guarantor": {
+            "fullName": "Debby Balogun",
+            "phoneNumber": "09066174514",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "LSR935765",
+        "organizationName": "LendStar",
+        "fullName": "Sarah Ogana",
+        "email": "sarahogana@irorun.com",
+        "phoneNumber": "09055206996",
+        "bvn": "BVN 92862034448",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 1,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2020-11-23T09:01:00",
+        "bank": "Providus Bank",
+        "accountBalance": 510269,
+        "userTier": 1,
+        "status": "inactive",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "unemployed",
+            "sector": "HealthTech",
+            "employmentDuration": "2",
+            "officeEmail": "sarahogana@irorun.com",
+            "monthlyIncome": "400000-500000",
+            "loanRepayment": 40519
+        },
+        "socials": {
+            "twitter": "@sarah_ogana",
+            "facebook": "Sarah Ogana",
+            "instagram": "@sarah_ogana"
+        },
+        "guarantor": {
+            "fullName": "Uche Ogana",
+            "phoneNumber": "08023733292",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "IRO576454",
+        "organizationName": "Irorun",
+        "fullName": "Chika Balogun",
+        "email": "chikabalogun@lendsqr.com",
+        "phoneNumber": "09013689766",
+        "bvn": "BVN 18116964687",
+        "gender": "female",
+        "maritalStatus": "single",
+        "children": 0,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2022-12-13T09:49:00",
+        "bank": "Providus Bank",
+        "accountBalance": 252228,
+        "userTier": 0,
+        "status": "blacklist",
+        "educationEmployment": {
+            "level": "M.Sc",
+            "employmentStatus": "employed",
+            "sector": "AgriTech",
+            "employmentDuration": "4",
+            "officeEmail": "chikabalogun@lendstar.com",
+            "monthlyIncome": "50000-100000",
+            "loanRepayment": 23120
+        },
+        "socials": {
+            "twitter": "@chika_balogun",
+            "facebook": "Chika Balogun",
+            "instagram": "@chika_balogun"
+        },
+        "guarantor": {
+            "fullName": "Uche Ibrahim",
+            "phoneNumber": "08095597138",
+            "relationship": "sister"
+        }
+    },
+    {
+        "userId": "LSR705985",
+        "organizationName": "LendStar",
+        "fullName": "Sarah Balogun",
+        "email": "sarahbalogun@lendstar.com",
+        "phoneNumber": "09030449583",
+        "bvn": "BVN 83210116135",
+        "gender": "male",
+        "maritalStatus": "single",
+        "children": 0,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2020-05-20T05:07:00",
+        "bank": "Providus Bank",
+        "accountBalance": 446511,
+        "userTier": 2,
+        "status": "blacklist",
+        "educationEmployment": {
+            "level": "M.Sc",
+            "employmentStatus": "unemployed",
+            "sector": "AgriTech",
+            "employmentDuration": "1",
+            "officeEmail": "sarahbalogun@lendstar.com",
+            "monthlyIncome": "50000-100000",
+            "loanRepayment": 22806
+        },
+        "socials": {
+            "twitter": "@sarah_balogun",
+            "facebook": "Sarah Balogun",
+            "instagram": "@sarah_balogun"
+        },
+        "guarantor": {
+            "fullName": "Michael Ahmed",
+            "phoneNumber": "07054009108",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "IRO475298",
+        "organizationName": "Irorun",
+        "fullName": "Grace Balogun",
+        "email": "gracebalogun@irorun.com",
+        "phoneNumber": "07031537308",
+        "bvn": "BVN 12982170166",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 1,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2023-08-09T18:50:00",
+        "bank": "Providus Bank",
+        "accountBalance": 757904,
+        "userTier": 2,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "self-employed",
+            "sector": "EduTech",
+            "employmentDuration": "3",
+            "officeEmail": "gracebalogun@lendstar.com",
+            "monthlyIncome": "300000-400000",
+            "loanRepayment": 18703
+        },
+        "socials": {
+            "twitter": "@grace_balogun",
+            "facebook": "Grace Balogun",
+            "instagram": "@grace_balogun"
+        },
+        "guarantor": {
+            "fullName": "Uche Balogun",
+            "phoneNumber": "07093891914",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "IRO185036",
+        "organizationName": "Irorun",
+        "fullName": "Ebuka Ahmed",
+        "email": "ebukaahmed@irorun.com",
+        "phoneNumber": "09085194398",
+        "bvn": "BVN 65053976591",
+        "gender": "female",
+        "maritalStatus": "single",
+        "children": 3,
+        "residenceType": "self-owned",
+        "dateJoined": "2020-08-19T17:49:00",
+        "bank": "Providus Bank",
+        "accountBalance": 558375,
+        "userTier": 3,
+        "status": "blacklist",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "employed",
+            "sector": "EduTech",
+            "employmentDuration": "2",
+            "officeEmail": "ebukaahmed@lendstar.com",
+            "monthlyIncome": "400000-500000",
+            "loanRepayment": 32189
+        },
+        "socials": {
+            "twitter": "@ebuka_ahmed",
+            "facebook": "Ebuka Ahmed",
+            "instagram": "@ebuka_ahmed"
+        },
+        "guarantor": {
+            "fullName": "Sarah Effiom",
+            "phoneNumber": "07095382878",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "LSR577125",
+        "organizationName": "LendStar",
+        "fullName": "Chika Balogun",
+        "email": "chikabalogun@irorun.com",
+        "phoneNumber": "09091494418",
+        "bvn": "BVN 90949933756",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 1,
+        "residenceType": "rented apartment",
+        "dateJoined": "2021-03-07T19:19:00",
+        "bank": "Providus Bank",
+        "accountBalance": 829794,
+        "userTier": 0,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "self-employed",
+            "sector": "HealthTech",
+            "employmentDuration": "5",
+            "officeEmail": "chikabalogun@lendsqr.com",
+            "monthlyIncome": "10000-50000",
+            "loanRepayment": 31823
+        },
+        "socials": {
+            "twitter": "@chika_balogun",
+            "facebook": "Chika Balogun",
+            "instagram": "@chika_balogun"
+        },
+        "guarantor": {
+            "fullName": "Michael Ogana",
+            "phoneNumber": "08080623845",
+            "relationship": "sister"
+        }
+    },
+    {
+        "userId": "LSQ459116",
+        "organizationName": "Lendsqr",
+        "fullName": "Grace Ibrahim",
+        "email": "graceibrahim@lendstar.com",
+        "phoneNumber": "08072818481",
+        "bvn": "BVN 11815525775",
+        "gender": "male",
+        "maritalStatus": "single",
+        "children": 1,
+        "residenceType": "self-owned",
+        "dateJoined": "2022-05-09T12:23:00",
+        "bank": "Providus Bank",
+        "accountBalance": 729070,
+        "userTier": 0,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "M.Sc",
+            "employmentStatus": "self-employed",
+            "sector": "FinTech",
+            "employmentDuration": "7",
+            "officeEmail": "graceibrahim@irorun.com",
+            "monthlyIncome": "10000-50000",
+            "loanRepayment": 32784
+        },
+        "socials": {
+            "twitter": "@grace_ibrahim",
+            "facebook": "Grace Ibrahim",
+            "instagram": "@grace_ibrahim"
+        },
+        "guarantor": {
+            "fullName": "Sarah Balogun",
+            "phoneNumber": "09071823748",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "LSQ582483",
+        "organizationName": "Lendsqr",
+        "fullName": "Sarah Ibrahim",
+        "email": "sarahibrahim@lendsqr.com",
+        "phoneNumber": "07074726054",
+        "bvn": "BVN 13479034830",
+        "gender": "male",
+        "maritalStatus": "married",
+        "children": 1,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2020-10-17T21:18:00",
+        "bank": "Providus Bank",
+        "accountBalance": 730572,
+        "userTier": 3,
+        "status": "blacklist",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "unemployed",
+            "sector": "EduTech",
+            "employmentDuration": "8",
+            "officeEmail": "sarahibrahim@irorun.com",
+            "monthlyIncome": "300000-400000",
+            "loanRepayment": 12396
+        },
+        "socials": {
+            "twitter": "@sarah_ibrahim",
+            "facebook": "Sarah Ibrahim",
+            "instagram": "@sarah_ibrahim"
+        },
+        "guarantor": {
+            "fullName": "Sarah Ogana",
+            "phoneNumber": "08082956034",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "LSR882825",
+        "organizationName": "LendStar",
+        "fullName": "John Ibrahim",
+        "email": "johnibrahim@lendstar.com",
+        "phoneNumber": "09028000495",
+        "bvn": "BVN 81114969953",
+        "gender": "female",
+        "maritalStatus": "single",
+        "children": 1,
+        "residenceType": "rented apartment",
+        "dateJoined": "2021-10-14T12:08:00",
+        "bank": "Providus Bank",
+        "accountBalance": 714125,
+        "userTier": 1,
+        "status": "blacklist",
+        "educationEmployment": {
+            "level": "M.Sc",
+            "employmentStatus": "self-employed",
+            "sector": "AgriTech",
+            "employmentDuration": "6",
+            "officeEmail": "johnibrahim@lendsqr.com",
+            "monthlyIncome": "100000-200000",
+            "loanRepayment": 17275
+        },
+        "socials": {
+            "twitter": "@john_ibrahim",
+            "facebook": "John Ibrahim",
+            "instagram": "@john_ibrahim"
+        },
+        "guarantor": {
+            "fullName": "Uche Effiom",
+            "phoneNumber": "08094472999",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "LSQ769339",
+        "organizationName": "Lendsqr",
+        "fullName": "Sarah Ahmed",
+        "email": "sarahahmed@lendstar.com",
+        "phoneNumber": "07028983380",
+        "bvn": "BVN 35435400336",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 3,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2020-01-21T16:17:00",
+        "bank": "Providus Bank",
+        "accountBalance": 905719,
+        "userTier": 2,
+        "status": "active",
+        "educationEmployment": {
+            "level": "M.Sc",
+            "employmentStatus": "employed",
+            "sector": "HealthTech",
+            "employmentDuration": "9",
+            "officeEmail": "sarahahmed@lendsqr.com",
+            "monthlyIncome": "200000-300000",
+            "loanRepayment": 33652
+        },
+        "socials": {
+            "twitter": "@sarah_ahmed",
+            "facebook": "Sarah Ahmed",
+            "instagram": "@sarah_ahmed"
+        },
+        "guarantor": {
+            "fullName": "Sarah Effiom",
+            "phoneNumber": "07046282141",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "LSQ519766",
+        "organizationName": "Lendsqr",
+        "fullName": "Ebuka Balogun",
+        "email": "ebukabalogun@lendstar.com",
+        "phoneNumber": "07011759315",
+        "bvn": "BVN 36821548634",
+        "gender": "female",
+        "maritalStatus": "single",
+        "children": 1,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2022-12-04T11:30:00",
+        "bank": "Providus Bank",
+        "accountBalance": 983111,
+        "userTier": 1,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "M.Sc",
+            "employmentStatus": "employed",
+            "sector": "HealthTech",
+            "employmentDuration": "3",
+            "officeEmail": "ebukabalogun@irorun.com",
+            "monthlyIncome": "400000-500000",
+            "loanRepayment": 18481
+        },
+        "socials": {
+            "twitter": "@ebuka_balogun",
+            "facebook": "Ebuka Balogun",
+            "instagram": "@ebuka_balogun"
+        },
+        "guarantor": {
+            "fullName": "Michael Ahmed",
+            "phoneNumber": "08076474567",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "LSR768343",
+        "organizationName": "LendStar",
+        "fullName": "Grace Effiom",
+        "email": "graceeffiom@irorun.com",
+        "phoneNumber": "07092941570",
+        "bvn": "BVN 16988583659",
+        "gender": "male",
+        "maritalStatus": "single",
+        "children": 2,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2021-10-26T03:19:00",
+        "bank": "Providus Bank",
+        "accountBalance": 969452,
+        "userTier": 0,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "employed",
+            "sector": "EduTech",
+            "employmentDuration": "4",
+            "officeEmail": "graceeffiom@irorun.com",
+            "monthlyIncome": "50000-100000",
+            "loanRepayment": 31697
+        },
+        "socials": {
+            "twitter": "@grace_effiom",
+            "facebook": "Grace Effiom",
+            "instagram": "@grace_effiom"
+        },
+        "guarantor": {
+            "fullName": "Sarah Ogana",
+            "phoneNumber": "07060081683",
+            "relationship": "sister"
+        }
+    },
+    {
+        "userId": "LSQ190403",
+        "organizationName": "Lendsqr",
+        "fullName": "Chika Ibrahim",
+        "email": "chikaibrahim@lendsqr.com",
+        "phoneNumber": "09088217599",
+        "bvn": "BVN 24064830536",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 3,
+        "residenceType": "rented apartment",
+        "dateJoined": "2022-10-10T20:55:00",
+        "bank": "Providus Bank",
+        "accountBalance": 968220,
+        "userTier": 2,
+        "status": "inactive",
+        "educationEmployment": {
+            "level": "M.Sc",
+            "employmentStatus": "self-employed",
+            "sector": "HealthTech",
+            "employmentDuration": "2",
+            "officeEmail": "chikaibrahim@irorun.com",
+            "monthlyIncome": "200000-300000",
+            "loanRepayment": 14996
+        },
+        "socials": {
+            "twitter": "@chika_ibrahim",
+            "facebook": "Chika Ibrahim",
+            "instagram": "@chika_ibrahim"
+        },
+        "guarantor": {
+            "fullName": "Sarah Balogun",
+            "phoneNumber": "08024381327",
+            "relationship": "sister"
+        }
+    },
+    {
+        "userId": "LSQ348023",
+        "organizationName": "Lendsqr",
+        "fullName": "Chika Ahmed",
+        "email": "chikaahmed@irorun.com",
+        "phoneNumber": "07078377893",
+        "bvn": "BVN 99014098374",
+        "gender": "male",
+        "maritalStatus": "married",
+        "children": 1,
+        "residenceType": "self-owned",
+        "dateJoined": "2023-06-06T20:56:00",
+        "bank": "Providus Bank",
+        "accountBalance": 288364,
+        "userTier": 1,
+        "status": "inactive",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "employed",
+            "sector": "EduTech",
+            "employmentDuration": "4",
+            "officeEmail": "chikaahmed@lendstar.com",
+            "monthlyIncome": "300000-400000",
+            "loanRepayment": 27048
+        },
+        "socials": {
+            "twitter": "@chika_ahmed",
+            "facebook": "Chika Ahmed",
+            "instagram": "@chika_ahmed"
+        },
+        "guarantor": {
+            "fullName": "Debby Ahmed",
+            "phoneNumber": "08016938950",
+            "relationship": "sister"
+        }
+    },
+    {
+        "userId": "LSR519819",
+        "organizationName": "LendStar",
+        "fullName": "Ebuka Effiom",
+        "email": "ebukaeffiom@lendstar.com",
+        "phoneNumber": "08071307322",
+        "bvn": "BVN 68805475398",
+        "gender": "male",
+        "maritalStatus": "married",
+        "children": 0,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2020-02-21T04:55:00",
+        "bank": "Providus Bank",
+        "accountBalance": 216579,
+        "userTier": 1,
+        "status": "inactive",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "employed",
+            "sector": "AgriTech",
+            "employmentDuration": "4",
+            "officeEmail": "ebukaeffiom@lendsqr.com",
+            "monthlyIncome": "400000-500000",
+            "loanRepayment": 45454
+        },
+        "socials": {
+            "twitter": "@ebuka_effiom",
+            "facebook": "Ebuka Effiom",
+            "instagram": "@ebuka_effiom"
+        },
+        "guarantor": {
+            "fullName": "Debby Ogana",
+            "phoneNumber": "09021578850",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "LSQ727124",
+        "organizationName": "Lendsqr",
+        "fullName": "Chika Ibrahim",
+        "email": "chikaibrahim@lendstar.com",
+        "phoneNumber": "09018278645",
+        "bvn": "BVN 27923582975",
+        "gender": "male",
+        "maritalStatus": "single",
+        "children": 1,
+        "residenceType": "rented apartment",
+        "dateJoined": "2023-05-23T17:22:00",
+        "bank": "Providus Bank",
+        "accountBalance": 360059,
+        "userTier": 1,
+        "status": "active",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "employed",
+            "sector": "HealthTech",
+            "employmentDuration": "5",
+            "officeEmail": "chikaibrahim@irorun.com",
+            "monthlyIncome": "100000-200000",
+            "loanRepayment": 21755
+        },
+        "socials": {
+            "twitter": "@chika_ibrahim",
+            "facebook": "Chika Ibrahim",
+            "instagram": "@chika_ibrahim"
+        },
+        "guarantor": {
+            "fullName": "Debby Ogana",
+            "phoneNumber": "08054256756",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "LSR484673",
+        "organizationName": "LendStar",
+        "fullName": "Grace Ibrahim",
+        "email": "graceibrahim@irorun.com",
+        "phoneNumber": "09014382475",
+        "bvn": "BVN 29148887697",
+        "gender": "male",
+        "maritalStatus": "married",
+        "children": 0,
+        "residenceType": "rented apartment",
+        "dateJoined": "2020-11-10T07:35:00",
+        "bank": "Providus Bank",
+        "accountBalance": 693176,
+        "userTier": 2,
+        "status": "inactive",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "employed",
+            "sector": "EduTech",
+            "employmentDuration": "8",
+            "officeEmail": "graceibrahim@irorun.com",
+            "monthlyIncome": "50000-100000",
+            "loanRepayment": 37066
+        },
+        "socials": {
+            "twitter": "@grace_ibrahim",
+            "facebook": "Grace Ibrahim",
+            "instagram": "@grace_ibrahim"
+        },
+        "guarantor": {
+            "fullName": "Debby Effiom",
+            "phoneNumber": "08040952941",
+            "relationship": "sister"
+        }
+    },
+    {
+        "userId": "LSR833827",
+        "organizationName": "LendStar",
+        "fullName": "Chika Ibrahim",
+        "email": "chikaibrahim@lendsqr.com",
+        "phoneNumber": "07046466120",
+        "bvn": "BVN 98806144004",
+        "gender": "male",
+        "maritalStatus": "single",
+        "children": 3,
+        "residenceType": "self-owned",
+        "dateJoined": "2023-02-24T08:40:00",
+        "bank": "Providus Bank",
+        "accountBalance": 250672,
+        "userTier": 3,
+        "status": "blacklist",
+        "educationEmployment": {
+            "level": "M.Sc",
+            "employmentStatus": "employed",
+            "sector": "AgriTech",
+            "employmentDuration": "10",
+            "officeEmail": "chikaibrahim@lendsqr.com",
+            "monthlyIncome": "10000-50000",
+            "loanRepayment": 19032
+        },
+        "socials": {
+            "twitter": "@chika_ibrahim",
+            "facebook": "Chika Ibrahim",
+            "instagram": "@chika_ibrahim"
+        },
+        "guarantor": {
+            "fullName": "Uche Ogana",
+            "phoneNumber": "09074900531",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "IRO430802",
+        "organizationName": "Irorun",
+        "fullName": "Grace Ogana",
+        "email": "graceogana@lendstar.com",
+        "phoneNumber": "07088615644",
+        "bvn": "BVN 62788295906",
+        "gender": "male",
+        "maritalStatus": "single",
+        "children": 0,
+        "residenceType": "rented apartment",
+        "dateJoined": "2020-06-27T11:31:00",
+        "bank": "Providus Bank",
+        "accountBalance": 311488,
+        "userTier": 0,
+        "status": "active",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "employed",
+            "sector": "AgriTech",
+            "employmentDuration": "4",
+            "officeEmail": "graceogana@lendsqr.com",
+            "monthlyIncome": "300000-400000",
+            "loanRepayment": 17687
+        },
+        "socials": {
+            "twitter": "@grace_ogana",
+            "facebook": "Grace Ogana",
+            "instagram": "@grace_ogana"
+        },
+        "guarantor": {
+            "fullName": "Michael Balogun",
+            "phoneNumber": "09071686635",
+            "relationship": "sister"
+        }
+    },
+    {
+        "userId": "LSR733688",
+        "organizationName": "LendStar",
+        "fullName": "Ebuka Ibrahim",
+        "email": "ebukaibrahim@lendstar.com",
+        "phoneNumber": "07037964812",
+        "bvn": "BVN 21944771647",
+        "gender": "male",
+        "maritalStatus": "married",
+        "children": 2,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2022-05-15T01:33:00",
+        "bank": "Providus Bank",
+        "accountBalance": 284727,
+        "userTier": 2,
+        "status": "inactive",
+        "educationEmployment": {
+            "level": "M.Sc",
+            "employmentStatus": "self-employed",
+            "sector": "FinTech",
+            "employmentDuration": "2",
+            "officeEmail": "ebukaibrahim@lendstar.com",
+            "monthlyIncome": "100000-200000",
+            "loanRepayment": 44317
+        },
+        "socials": {
+            "twitter": "@ebuka_ibrahim",
+            "facebook": "Ebuka Ibrahim",
+            "instagram": "@ebuka_ibrahim"
+        },
+        "guarantor": {
+            "fullName": "Debby Ibrahim",
+            "phoneNumber": "07018578275",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "IRO200015",
+        "organizationName": "Irorun",
+        "fullName": "Sarah Ogana",
+        "email": "sarahogana@irorun.com",
+        "phoneNumber": "07069988830",
+        "bvn": "BVN 58435840419",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 3,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2020-11-05T13:40:00",
+        "bank": "Providus Bank",
+        "accountBalance": 502102,
+        "userTier": 3,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "self-employed",
+            "sector": "AgriTech",
+            "employmentDuration": "3",
+            "officeEmail": "sarahogana@lendsqr.com",
+            "monthlyIncome": "100000-200000",
+            "loanRepayment": 29461
+        },
+        "socials": {
+            "twitter": "@sarah_ogana",
+            "facebook": "Sarah Ogana",
+            "instagram": "@sarah_ogana"
+        },
+        "guarantor": {
+            "fullName": "Michael Effiom",
+            "phoneNumber": "08044108906",
+            "relationship": "sister"
+        }
+    },
+    {
+        "userId": "LSR669259",
+        "organizationName": "LendStar",
+        "fullName": "Grace Balogun",
+        "email": "gracebalogun@lendsqr.com",
+        "phoneNumber": "09055110406",
+        "bvn": "BVN 49215274922",
+        "gender": "male",
+        "maritalStatus": "married",
+        "children": 2,
+        "residenceType": "self-owned",
+        "dateJoined": "2022-06-15T10:30:00",
+        "bank": "Providus Bank",
+        "accountBalance": 394849,
+        "userTier": 3,
+        "status": "inactive",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "employed",
+            "sector": "AgriTech",
+            "employmentDuration": "2",
+            "officeEmail": "gracebalogun@lendstar.com",
+            "monthlyIncome": "300000-400000",
+            "loanRepayment": 20463
+        },
+        "socials": {
+            "twitter": "@grace_balogun",
+            "facebook": "Grace Balogun",
+            "instagram": "@grace_balogun"
+        },
+        "guarantor": {
+            "fullName": "Sarah Ahmed",
+            "phoneNumber": "08042110590",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "IRO195801",
+        "organizationName": "Irorun",
+        "fullName": "Grace Balogun",
+        "email": "gracebalogun@lendsqr.com",
+        "phoneNumber": "08027706911",
+        "bvn": "BVN 25345651287",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 2,
+        "residenceType": "self-owned",
+        "dateJoined": "2021-05-01T04:10:00",
+        "bank": "Providus Bank",
+        "accountBalance": 543120,
+        "userTier": 0,
+        "status": "inactive",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "unemployed",
+            "sector": "AgriTech",
+            "employmentDuration": "5",
+            "officeEmail": "gracebalogun@irorun.com",
+            "monthlyIncome": "10000-50000",
+            "loanRepayment": 23543
+        },
+        "socials": {
+            "twitter": "@grace_balogun",
+            "facebook": "Grace Balogun",
+            "instagram": "@grace_balogun"
+        },
+        "guarantor": {
+            "fullName": "Sarah Ogana",
+            "phoneNumber": "08022311974",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "IRO655747",
+        "organizationName": "Irorun",
+        "fullName": "Ebuka Ogana",
+        "email": "ebukaogana@irorun.com",
+        "phoneNumber": "09080958630",
+        "bvn": "BVN 90394167380",
+        "gender": "female",
+        "maritalStatus": "single",
+        "children": 0,
+        "residenceType": "rented apartment",
+        "dateJoined": "2023-11-16T22:32:00",
+        "bank": "Providus Bank",
+        "accountBalance": 268355,
+        "userTier": 1,
+        "status": "blacklist",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "unemployed",
+            "sector": "EduTech",
+            "employmentDuration": "8",
+            "officeEmail": "ebukaogana@lendsqr.com",
+            "monthlyIncome": "50000-100000",
+            "loanRepayment": 26616
+        },
+        "socials": {
+            "twitter": "@ebuka_ogana",
+            "facebook": "Ebuka Ogana",
+            "instagram": "@ebuka_ogana"
+        },
+        "guarantor": {
+            "fullName": "Uche Effiom",
+            "phoneNumber": "09079825480",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "LSQ299411",
+        "organizationName": "Lendsqr",
+        "fullName": "Sarah Balogun",
+        "email": "sarahbalogun@lendsqr.com",
+        "phoneNumber": "07047874056",
+        "bvn": "BVN 59795381382",
+        "gender": "male",
+        "maritalStatus": "married",
+        "children": 2,
+        "residenceType": "rented apartment",
+        "dateJoined": "2021-05-30T12:22:00",
+        "bank": "Providus Bank",
+        "accountBalance": 586592,
+        "userTier": 0,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "employed",
+            "sector": "HealthTech",
+            "employmentDuration": "6",
+            "officeEmail": "sarahbalogun@lendsqr.com",
+            "monthlyIncome": "400000-500000",
+            "loanRepayment": 33084
+        },
+        "socials": {
+            "twitter": "@sarah_balogun",
+            "facebook": "Sarah Balogun",
+            "instagram": "@sarah_balogun"
+        },
+        "guarantor": {
+            "fullName": "Michael Ahmed",
+            "phoneNumber": "07079587687",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "LSR957270",
+        "organizationName": "LendStar",
+        "fullName": "Sarah Ogana",
+        "email": "sarahogana@irorun.com",
+        "phoneNumber": "09070131244",
+        "bvn": "BVN 51630575738",
+        "gender": "female",
+        "maritalStatus": "single",
+        "children": 2,
+        "residenceType": "self-owned",
+        "dateJoined": "2022-08-24T08:26:00",
+        "bank": "Providus Bank",
+        "accountBalance": 669970,
+        "userTier": 2,
+        "status": "active",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "unemployed",
+            "sector": "AgriTech",
+            "employmentDuration": "2",
+            "officeEmail": "sarahogana@lendstar.com",
+            "monthlyIncome": "100000-200000",
+            "loanRepayment": 38726
+        },
+        "socials": {
+            "twitter": "@sarah_ogana",
+            "facebook": "Sarah Ogana",
+            "instagram": "@sarah_ogana"
+        },
+        "guarantor": {
+            "fullName": "Debby Ahmed",
+            "phoneNumber": "09095746275",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "LSQ678515",
+        "organizationName": "Lendsqr",
+        "fullName": "Chika Ibrahim",
+        "email": "chikaibrahim@lendsqr.com",
+        "phoneNumber": "09075271556",
+        "bvn": "BVN 15274672672",
+        "gender": "female",
+        "maritalStatus": "single",
+        "children": 2,
+        "residenceType": "self-owned",
+        "dateJoined": "2020-02-22T07:03:00",
+        "bank": "Providus Bank",
+        "accountBalance": 352393,
+        "userTier": 3,
+        "status": "inactive",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "employed",
+            "sector": "FinTech",
+            "employmentDuration": "5",
+            "officeEmail": "chikaibrahim@lendsqr.com",
+            "monthlyIncome": "400000-500000",
+            "loanRepayment": 19174
+        },
+        "socials": {
+            "twitter": "@chika_ibrahim",
+            "facebook": "Chika Ibrahim",
+            "instagram": "@chika_ibrahim"
+        },
+        "guarantor": {
+            "fullName": "Uche Ibrahim",
+            "phoneNumber": "07058354779",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "IRO360795",
+        "organizationName": "Irorun",
+        "fullName": "John Ibrahim",
+        "email": "johnibrahim@irorun.com",
+        "phoneNumber": "09061006510",
+        "bvn": "BVN 83813391445",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 0,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2023-04-11T21:40:00",
+        "bank": "Providus Bank",
+        "accountBalance": 888121,
+        "userTier": 2,
+        "status": "active",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "employed",
+            "sector": "FinTech",
+            "employmentDuration": "9",
+            "officeEmail": "johnibrahim@irorun.com",
+            "monthlyIncome": "50000-100000",
+            "loanRepayment": 42360
+        },
+        "socials": {
+            "twitter": "@john_ibrahim",
+            "facebook": "John Ibrahim",
+            "instagram": "@john_ibrahim"
+        },
+        "guarantor": {
+            "fullName": "Michael Balogun",
+            "phoneNumber": "09025392134",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "IRO476375",
+        "organizationName": "Irorun",
+        "fullName": "Grace Ahmed",
+        "email": "graceahmed@lendstar.com",
+        "phoneNumber": "07082595281",
+        "bvn": "BVN 79922693166",
+        "gender": "male",
+        "maritalStatus": "single",
+        "children": 1,
+        "residenceType": "rented apartment",
+        "dateJoined": "2020-12-23T19:04:00",
+        "bank": "Providus Bank",
+        "accountBalance": 869214,
+        "userTier": 0,
+        "status": "blacklist",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "employed",
+            "sector": "AgriTech",
+            "employmentDuration": "8",
+            "officeEmail": "graceahmed@lendsqr.com",
+            "monthlyIncome": "100000-200000",
+            "loanRepayment": 14090
+        },
+        "socials": {
+            "twitter": "@grace_ahmed",
+            "facebook": "Grace Ahmed",
+            "instagram": "@grace_ahmed"
+        },
+        "guarantor": {
+            "fullName": "Uche Ogana",
+            "phoneNumber": "08095158327",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "IRO947340",
+        "organizationName": "Irorun",
+        "fullName": "Ebuka Balogun",
+        "email": "ebukabalogun@lendstar.com",
+        "phoneNumber": "07029444644",
+        "bvn": "BVN 17364928168",
+        "gender": "male",
+        "maritalStatus": "single",
+        "children": 3,
+        "residenceType": "rented apartment",
+        "dateJoined": "2020-09-07T14:53:00",
+        "bank": "Providus Bank",
+        "accountBalance": 240389,
+        "userTier": 0,
+        "status": "active",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "employed",
+            "sector": "AgriTech",
+            "employmentDuration": "5",
+            "officeEmail": "ebukabalogun@lendstar.com",
+            "monthlyIncome": "50000-100000",
+            "loanRepayment": 34675
+        },
+        "socials": {
+            "twitter": "@ebuka_balogun",
+            "facebook": "Ebuka Balogun",
+            "instagram": "@ebuka_balogun"
+        },
+        "guarantor": {
+            "fullName": "Uche Ogana",
+            "phoneNumber": "08048369972",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "LSQ929365",
+        "organizationName": "Lendsqr",
+        "fullName": "Sarah Ogana",
+        "email": "sarahogana@irorun.com",
+        "phoneNumber": "07021362440",
+        "bvn": "BVN 32732434772",
+        "gender": "male",
+        "maritalStatus": "married",
+        "children": 0,
+        "residenceType": "self-owned",
+        "dateJoined": "2021-07-07T06:45:00",
+        "bank": "Providus Bank",
+        "accountBalance": 520443,
+        "userTier": 2,
+        "status": "blacklist",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "unemployed",
+            "sector": "EduTech",
+            "employmentDuration": "1",
+            "officeEmail": "sarahogana@irorun.com",
+            "monthlyIncome": "100000-200000",
+            "loanRepayment": 15933
+        },
+        "socials": {
+            "twitter": "@sarah_ogana",
+            "facebook": "Sarah Ogana",
+            "instagram": "@sarah_ogana"
+        },
+        "guarantor": {
+            "fullName": "Uche Ahmed",
+            "phoneNumber": "09027732659",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "IRO239541",
+        "organizationName": "Irorun",
+        "fullName": "Chika Ogana",
+        "email": "chikaogana@lendstar.com",
+        "phoneNumber": "07091146059",
+        "bvn": "BVN 96281611108",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 1,
+        "residenceType": "rented apartment",
+        "dateJoined": "2021-07-12T09:18:00",
+        "bank": "Providus Bank",
+        "accountBalance": 272898,
+        "userTier": 3,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "unemployed",
+            "sector": "FinTech",
+            "employmentDuration": "2",
+            "officeEmail": "chikaogana@lendsqr.com",
+            "monthlyIncome": "100000-200000",
+            "loanRepayment": 47214
+        },
+        "socials": {
+            "twitter": "@chika_ogana",
+            "facebook": "Chika Ogana",
+            "instagram": "@chika_ogana"
+        },
+        "guarantor": {
+            "fullName": "Uche Ibrahim",
+            "phoneNumber": "07048969085",
+            "relationship": "sister"
+        }
+    },
+    {
+        "userId": "LSQ134672",
+        "organizationName": "Lendsqr",
+        "fullName": "Ebuka Ibrahim",
+        "email": "ebukaibrahim@irorun.com",
+        "phoneNumber": "07053521703",
+        "bvn": "BVN 22106295245",
+        "gender": "female",
+        "maritalStatus": "single",
+        "children": 1,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2023-08-28T00:13:00",
+        "bank": "Providus Bank",
+        "accountBalance": 154543,
+        "userTier": 2,
+        "status": "active",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "self-employed",
+            "sector": "EduTech",
+            "employmentDuration": "4",
+            "officeEmail": "ebukaibrahim@lendstar.com",
+            "monthlyIncome": "50000-100000",
+            "loanRepayment": 17063
+        },
+        "socials": {
+            "twitter": "@ebuka_ibrahim",
+            "facebook": "Ebuka Ibrahim",
+            "instagram": "@ebuka_ibrahim"
+        },
+        "guarantor": {
+            "fullName": "Debby Balogun",
+            "phoneNumber": "07078211808",
+            "relationship": "sister"
+        }
+    },
+    {
+        "userId": "IRO738702",
+        "organizationName": "Irorun",
+        "fullName": "Chika Ahmed",
+        "email": "chikaahmed@irorun.com",
+        "phoneNumber": "09017845805",
+        "bvn": "BVN 53658721526",
+        "gender": "male",
+        "maritalStatus": "single",
+        "children": 1,
+        "residenceType": "self-owned",
+        "dateJoined": "2020-12-16T23:49:00",
+        "bank": "Providus Bank",
+        "accountBalance": 487978,
+        "userTier": 0,
+        "status": "inactive",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "self-employed",
+            "sector": "EduTech",
+            "employmentDuration": "9",
+            "officeEmail": "chikaahmed@lendstar.com",
+            "monthlyIncome": "10000-50000",
+            "loanRepayment": 42836
+        },
+        "socials": {
+            "twitter": "@chika_ahmed",
+            "facebook": "Chika Ahmed",
+            "instagram": "@chika_ahmed"
+        },
+        "guarantor": {
+            "fullName": "Uche Ahmed",
+            "phoneNumber": "08072441445",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "LSQ261858",
+        "organizationName": "Lendsqr",
+        "fullName": "Grace Balogun",
+        "email": "gracebalogun@irorun.com",
+        "phoneNumber": "08097475444",
+        "bvn": "BVN 77754022364",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 3,
+        "residenceType": "rented apartment",
+        "dateJoined": "2020-07-21T09:21:00",
+        "bank": "Providus Bank",
+        "accountBalance": 617858,
+        "userTier": 0,
+        "status": "active",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "employed",
+            "sector": "HealthTech",
+            "employmentDuration": "2",
+            "officeEmail": "gracebalogun@lendsqr.com",
+            "monthlyIncome": "400000-500000",
+            "loanRepayment": 14880
+        },
+        "socials": {
+            "twitter": "@grace_balogun",
+            "facebook": "Grace Balogun",
+            "instagram": "@grace_balogun"
+        },
+        "guarantor": {
+            "fullName": "Sarah Ibrahim",
+            "phoneNumber": "09083152895",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "IRO801978",
+        "organizationName": "Irorun",
+        "fullName": "Sarah Effiom",
+        "email": "saraheffiom@lendsqr.com",
+        "phoneNumber": "09035411727",
+        "bvn": "BVN 56828094607",
+        "gender": "male",
+        "maritalStatus": "married",
+        "children": 2,
+        "residenceType": "rented apartment",
+        "dateJoined": "2022-01-19T05:16:00",
+        "bank": "Providus Bank",
+        "accountBalance": 374784,
+        "userTier": 2,
+        "status": "active",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "unemployed",
+            "sector": "EduTech",
+            "employmentDuration": "2",
+            "officeEmail": "saraheffiom@lendsqr.com",
+            "monthlyIncome": "400000-500000",
+            "loanRepayment": 11029
+        },
+        "socials": {
+            "twitter": "@sarah_effiom",
+            "facebook": "Sarah Effiom",
+            "instagram": "@sarah_effiom"
+        },
+        "guarantor": {
+            "fullName": "Michael Balogun",
+            "phoneNumber": "09079075172",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "IRO941650",
+        "organizationName": "Irorun",
+        "fullName": "Ebuka Ahmed",
+        "email": "ebukaahmed@irorun.com",
+        "phoneNumber": "07097217503",
+        "bvn": "BVN 29342279858",
+        "gender": "male",
+        "maritalStatus": "single",
+        "children": 1,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2023-11-02T01:23:00",
+        "bank": "Providus Bank",
+        "accountBalance": 467707,
+        "userTier": 2,
+        "status": "blacklist",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "employed",
+            "sector": "EduTech",
+            "employmentDuration": "8",
+            "officeEmail": "ebukaahmed@irorun.com",
+            "monthlyIncome": "400000-500000",
+            "loanRepayment": 31694
+        },
+        "socials": {
+            "twitter": "@ebuka_ahmed",
+            "facebook": "Ebuka Ahmed",
+            "instagram": "@ebuka_ahmed"
+        },
+        "guarantor": {
+            "fullName": "Debby Ogana",
+            "phoneNumber": "09010663839",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "LSR400296",
+        "organizationName": "LendStar",
+        "fullName": "Chika Ahmed",
+        "email": "chikaahmed@irorun.com",
+        "phoneNumber": "09070901220",
+        "bvn": "BVN 40710630597",
+        "gender": "male",
+        "maritalStatus": "single",
+        "children": 2,
+        "residenceType": "rented apartment",
+        "dateJoined": "2023-04-20T23:52:00",
+        "bank": "Providus Bank",
+        "accountBalance": 531215,
+        "userTier": 2,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "M.Sc",
+            "employmentStatus": "self-employed",
+            "sector": "AgriTech",
+            "employmentDuration": "3",
+            "officeEmail": "chikaahmed@lendsqr.com",
+            "monthlyIncome": "300000-400000",
+            "loanRepayment": 47424
+        },
+        "socials": {
+            "twitter": "@chika_ahmed",
+            "facebook": "Chika Ahmed",
+            "instagram": "@chika_ahmed"
+        },
+        "guarantor": {
+            "fullName": "Michael Balogun",
+            "phoneNumber": "09029279897",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "LSQ189417",
+        "organizationName": "Lendsqr",
+        "fullName": "Chika Ibrahim",
+        "email": "chikaibrahim@lendsqr.com",
+        "phoneNumber": "07055707285",
+        "bvn": "BVN 89696857860",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 2,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2023-07-27T03:42:00",
+        "bank": "Providus Bank",
+        "accountBalance": 116499,
+        "userTier": 1,
+        "status": "blacklist",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "unemployed",
+            "sector": "FinTech",
+            "employmentDuration": "2",
+            "officeEmail": "chikaibrahim@lendsqr.com",
+            "monthlyIncome": "50000-100000",
+            "loanRepayment": 32687
+        },
+        "socials": {
+            "twitter": "@chika_ibrahim",
+            "facebook": "Chika Ibrahim",
+            "instagram": "@chika_ibrahim"
+        },
+        "guarantor": {
+            "fullName": "Sarah Ibrahim",
+            "phoneNumber": "08021479608",
+            "relationship": "sister"
+        }
+    },
+    {
+        "userId": "LSR358355",
+        "organizationName": "LendStar",
+        "fullName": "John Effiom",
+        "email": "johneffiom@lendsqr.com",
+        "phoneNumber": "08093312405",
+        "bvn": "BVN 97471737710",
+        "gender": "female",
+        "maritalStatus": "single",
+        "children": 0,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2020-03-21T14:32:00",
+        "bank": "Providus Bank",
+        "accountBalance": 146867,
+        "userTier": 1,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "employed",
+            "sector": "AgriTech",
+            "employmentDuration": "2",
+            "officeEmail": "johneffiom@lendstar.com",
+            "monthlyIncome": "400000-500000",
+            "loanRepayment": 36751
+        },
+        "socials": {
+            "twitter": "@john_effiom",
+            "facebook": "John Effiom",
+            "instagram": "@john_effiom"
+        },
+        "guarantor": {
+            "fullName": "Uche Ogana",
+            "phoneNumber": "08090561271",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "LSR594288",
+        "organizationName": "LendStar",
+        "fullName": "Grace Balogun",
+        "email": "gracebalogun@lendstar.com",
+        "phoneNumber": "07071916319",
+        "bvn": "BVN 88557495649",
+        "gender": "male",
+        "maritalStatus": "married",
+        "children": 0,
+        "residenceType": "rented apartment",
+        "dateJoined": "2021-06-02T04:34:00",
+        "bank": "Providus Bank",
+        "accountBalance": 189157,
+        "userTier": 2,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "self-employed",
+            "sector": "HealthTech",
+            "employmentDuration": "6",
+            "officeEmail": "gracebalogun@irorun.com",
+            "monthlyIncome": "300000-400000",
+            "loanRepayment": 15449
+        },
+        "socials": {
+            "twitter": "@grace_balogun",
+            "facebook": "Grace Balogun",
+            "instagram": "@grace_balogun"
+        },
+        "guarantor": {
+            "fullName": "Uche Ibrahim",
+            "phoneNumber": "07079430939",
+            "relationship": "sister"
+        }
+    },
+    {
+        "userId": "IRO191567",
+        "organizationName": "Irorun",
+        "fullName": "Sarah Ogana",
+        "email": "sarahogana@lendstar.com",
+        "phoneNumber": "07051899836",
+        "bvn": "BVN 29883980739",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 2,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2022-06-28T18:33:00",
+        "bank": "Providus Bank",
+        "accountBalance": 613443,
+        "userTier": 0,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "self-employed",
+            "sector": "HealthTech",
+            "employmentDuration": "3",
+            "officeEmail": "sarahogana@lendstar.com",
+            "monthlyIncome": "10000-50000",
+            "loanRepayment": 29125
+        },
+        "socials": {
+            "twitter": "@sarah_ogana",
+            "facebook": "Sarah Ogana",
+            "instagram": "@sarah_ogana"
+        },
+        "guarantor": {
+            "fullName": "Sarah Effiom",
+            "phoneNumber": "09021482915",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "LSQ730938",
+        "organizationName": "Lendsqr",
+        "fullName": "Sarah Ibrahim",
+        "email": "sarahibrahim@lendstar.com",
+        "phoneNumber": "07060797017",
+        "bvn": "BVN 31401512508",
+        "gender": "male",
+        "maritalStatus": "single",
+        "children": 0,
+        "residenceType": "rented apartment",
+        "dateJoined": "2020-11-28T17:27:00",
+        "bank": "Providus Bank",
+        "accountBalance": 168550,
+        "userTier": 3,
+        "status": "blacklist",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "employed",
+            "sector": "AgriTech",
+            "employmentDuration": "4",
+            "officeEmail": "sarahibrahim@lendsqr.com",
+            "monthlyIncome": "100000-200000",
+            "loanRepayment": 13984
+        },
+        "socials": {
+            "twitter": "@sarah_ibrahim",
+            "facebook": "Sarah Ibrahim",
+            "instagram": "@sarah_ibrahim"
+        },
+        "guarantor": {
+            "fullName": "Michael Balogun",
+            "phoneNumber": "08037468959",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "IRO621254",
+        "organizationName": "Irorun",
+        "fullName": "Grace Ibrahim",
+        "email": "graceibrahim@irorun.com",
+        "phoneNumber": "08038148542",
+        "bvn": "BVN 14596770825",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 0,
+        "residenceType": "self-owned",
+        "dateJoined": "2023-10-14T03:35:00",
+        "bank": "Providus Bank",
+        "accountBalance": 406264,
+        "userTier": 2,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "M.Sc",
+            "employmentStatus": "employed",
+            "sector": "FinTech",
+            "employmentDuration": "10",
+            "officeEmail": "graceibrahim@lendsqr.com",
+            "monthlyIncome": "400000-500000",
+            "loanRepayment": 22573
+        },
+        "socials": {
+            "twitter": "@grace_ibrahim",
+            "facebook": "Grace Ibrahim",
+            "instagram": "@grace_ibrahim"
+        },
+        "guarantor": {
+            "fullName": "Michael Effiom",
+            "phoneNumber": "08026562192",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "LSQ476950",
+        "organizationName": "Lendsqr",
+        "fullName": "Grace Ogana",
+        "email": "graceogana@lendstar.com",
+        "phoneNumber": "09040434289",
+        "bvn": "BVN 56311298719",
+        "gender": "male",
+        "maritalStatus": "single",
+        "children": 0,
+        "residenceType": "self-owned",
+        "dateJoined": "2023-06-21T23:26:00",
+        "bank": "Providus Bank",
+        "accountBalance": 269701,
+        "userTier": 0,
+        "status": "active",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "employed",
+            "sector": "FinTech",
+            "employmentDuration": "3",
+            "officeEmail": "graceogana@lendstar.com",
+            "monthlyIncome": "400000-500000",
+            "loanRepayment": 22996
+        },
+        "socials": {
+            "twitter": "@grace_ogana",
+            "facebook": "Grace Ogana",
+            "instagram": "@grace_ogana"
+        },
+        "guarantor": {
+            "fullName": "Michael Effiom",
+            "phoneNumber": "07014943927",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "IRO207623",
+        "organizationName": "Irorun",
+        "fullName": "Ebuka Ahmed",
+        "email": "ebukaahmed@irorun.com",
+        "phoneNumber": "08094800274",
+        "bvn": "BVN 90711066971",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 1,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2020-08-31T20:45:00",
+        "bank": "Providus Bank",
+        "accountBalance": 759113,
+        "userTier": 2,
+        "status": "active",
+        "educationEmployment": {
+            "level": "M.Sc",
+            "employmentStatus": "self-employed",
+            "sector": "FinTech",
+            "employmentDuration": "7",
+            "officeEmail": "ebukaahmed@irorun.com",
+            "monthlyIncome": "300000-400000",
+            "loanRepayment": 45651
+        },
+        "socials": {
+            "twitter": "@ebuka_ahmed",
+            "facebook": "Ebuka Ahmed",
+            "instagram": "@ebuka_ahmed"
+        },
+        "guarantor": {
+            "fullName": "Sarah Ahmed",
+            "phoneNumber": "07014485956",
+            "relationship": "sister"
+        }
+    },
+    {
+        "userId": "LSR982379",
+        "organizationName": "LendStar",
+        "fullName": "Ebuka Effiom",
+        "email": "ebukaeffiom@irorun.com",
+        "phoneNumber": "07099478266",
+        "bvn": "BVN 95161575635",
+        "gender": "male",
+        "maritalStatus": "married",
+        "children": 2,
+        "residenceType": "self-owned",
+        "dateJoined": "2022-07-09T17:57:00",
+        "bank": "Providus Bank",
+        "accountBalance": 700099,
+        "userTier": 1,
+        "status": "active",
+        "educationEmployment": {
+            "level": "M.Sc",
+            "employmentStatus": "unemployed",
+            "sector": "FinTech",
+            "employmentDuration": "10",
+            "officeEmail": "ebukaeffiom@lendstar.com",
+            "monthlyIncome": "100000-200000",
+            "loanRepayment": 38053
+        },
+        "socials": {
+            "twitter": "@ebuka_effiom",
+            "facebook": "Ebuka Effiom",
+            "instagram": "@ebuka_effiom"
+        },
+        "guarantor": {
+            "fullName": "Uche Effiom",
+            "phoneNumber": "08095645490",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "IRO522676",
+        "organizationName": "Irorun",
+        "fullName": "John Ogana",
+        "email": "johnogana@irorun.com",
+        "phoneNumber": "09085014532",
+        "bvn": "BVN 10432570680",
+        "gender": "male",
+        "maritalStatus": "married",
+        "children": 2,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2022-08-26T23:02:00",
+        "bank": "Providus Bank",
+        "accountBalance": 351411,
+        "userTier": 2,
+        "status": "inactive",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "employed",
+            "sector": "FinTech",
+            "employmentDuration": "5",
+            "officeEmail": "johnogana@irorun.com",
+            "monthlyIncome": "400000-500000",
+            "loanRepayment": 14060
+        },
+        "socials": {
+            "twitter": "@john_ogana",
+            "facebook": "John Ogana",
+            "instagram": "@john_ogana"
+        },
+        "guarantor": {
+            "fullName": "Debby Ogana",
+            "phoneNumber": "09027499930",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "LSQ819790",
+        "organizationName": "Lendsqr",
+        "fullName": "John Ogana",
+        "email": "johnogana@irorun.com",
+        "phoneNumber": "08065560922",
+        "bvn": "BVN 34683386278",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 3,
+        "residenceType": "rented apartment",
+        "dateJoined": "2020-12-18T22:25:00",
+        "bank": "Providus Bank",
+        "accountBalance": 242109,
+        "userTier": 1,
+        "status": "inactive",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "employed",
+            "sector": "EduTech",
+            "employmentDuration": "6",
+            "officeEmail": "johnogana@lendstar.com",
+            "monthlyIncome": "200000-300000",
+            "loanRepayment": 12695
+        },
+        "socials": {
+            "twitter": "@john_ogana",
+            "facebook": "John Ogana",
+            "instagram": "@john_ogana"
+        },
+        "guarantor": {
+            "fullName": "Michael Ibrahim",
+            "phoneNumber": "09028722132",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "IRO672144",
+        "organizationName": "Irorun",
+        "fullName": "John Balogun",
+        "email": "johnbalogun@lendsqr.com",
+        "phoneNumber": "07021758945",
+        "bvn": "BVN 67237454669",
+        "gender": "female",
+        "maritalStatus": "married",
+        "children": 0,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2021-05-06T06:24:00",
+        "bank": "Providus Bank",
+        "accountBalance": 441846,
+        "userTier": 2,
+        "status": "blacklist",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "employed",
+            "sector": "AgriTech",
+            "employmentDuration": "7",
+            "officeEmail": "johnbalogun@lendstar.com",
+            "monthlyIncome": "400000-500000",
+            "loanRepayment": 42901
+        },
+        "socials": {
+            "twitter": "@john_balogun",
+            "facebook": "John Balogun",
+            "instagram": "@john_balogun"
+        },
+        "guarantor": {
+            "fullName": "Uche Balogun",
+            "phoneNumber": "09041538607",
+            "relationship": "friend"
+        }
+    },
+    {
+        "userId": "LSR328130",
+        "organizationName": "LendStar",
+        "fullName": "Grace Effiom",
+        "email": "graceeffiom@irorun.com",
+        "phoneNumber": "07090470535",
+        "bvn": "BVN 87643095105",
+        "gender": "male",
+        "maritalStatus": "single",
+        "children": 1,
+        "residenceType": "parent's apartment",
+        "dateJoined": "2023-02-06T16:34:00",
+        "bank": "Providus Bank",
+        "accountBalance": 461106,
+        "userTier": 0,
+        "status": "blacklist",
+        "educationEmployment": {
+            "level": "M.Sc",
+            "employmentStatus": "employed",
+            "sector": "EduTech",
+            "employmentDuration": "3",
+            "officeEmail": "graceeffiom@lendstar.com",
+            "monthlyIncome": "100000-200000",
+            "loanRepayment": 30784
+        },
+        "socials": {
+            "twitter": "@grace_effiom",
+            "facebook": "Grace Effiom",
+            "instagram": "@grace_effiom"
+        },
+        "guarantor": {
+            "fullName": "Sarah Ogana",
+            "phoneNumber": "08084618634",
+            "relationship": "sister"
+        }
+    },
+    {
+        "userId": "IRO426518",
+        "organizationName": "Irorun",
+        "fullName": "John Effiom",
+        "email": "johneffiom@lendsqr.com",
+        "phoneNumber": "08030440951",
+        "bvn": "BVN 47528337875",
+        "gender": "male",
+        "maritalStatus": "single",
+        "children": 2,
+        "residenceType": "rented apartment",
+        "dateJoined": "2020-01-31T21:48:00",
+        "bank": "Providus Bank",
+        "accountBalance": 109244,
+        "userTier": 2,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "self-employed",
+            "sector": "EduTech",
+            "employmentDuration": "10",
+            "officeEmail": "johneffiom@lendsqr.com",
+            "monthlyIncome": "200000-300000",
+            "loanRepayment": 16831
+        },
+        "socials": {
+            "twitter": "@john_effiom",
+            "facebook": "John Effiom",
+            "instagram": "@john_effiom"
+        },
+        "guarantor": {
+            "fullName": "Uche Balogun",
+            "phoneNumber": "07056600341",
+            "relationship": "sister"
+        }
+    },
+    {
+        "userId": "LSQ145273",
+        "organizationName": "Lendsqr",
+        "fullName": "Grace Effiom",
+        "email": "graceeffiom@irorun.com",
+        "phoneNumber": "09069481762",
+        "bvn": "BVN 57020725245",
+        "gender": "female",
+        "maritalStatus": "single",
+        "children": 2,
+        "residenceType": "self-owned",
+        "dateJoined": "2023-02-12T19:41:00",
+        "bank": "Providus Bank",
+        "accountBalance": 887453,
+        "userTier": 3,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "M.Sc",
+            "employmentStatus": "unemployed",
+            "sector": "AgriTech",
+            "employmentDuration": "3",
+            "officeEmail": "graceeffiom@lendsqr.com",
+            "monthlyIncome": "10000-50000",
+            "loanRepayment": 13073
+        },
+        "socials": {
+            "twitter": "@grace_effiom",
+            "facebook": "Grace Effiom",
+            "instagram": "@grace_effiom"
+        },
+        "guarantor": {
+            "fullName": "Debby Ogana",
+            "phoneNumber": "08010952561",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "IRO964353",
+        "organizationName": "Irorun",
+        "fullName": "Ebuka Ibrahim",
+        "email": "ebukaibrahim@lendstar.com",
+        "phoneNumber": "08083438285",
+        "bvn": "BVN 70653600106",
+        "gender": "male",
+        "maritalStatus": "married",
+        "children": 1,
+        "residenceType": "self-owned",
+        "dateJoined": "2021-10-29T01:59:00",
+        "bank": "Providus Bank",
+        "accountBalance": 274474,
+        "userTier": 1,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "PhD",
+            "employmentStatus": "employed",
+            "sector": "AgriTech",
+            "employmentDuration": "6",
+            "officeEmail": "ebukaibrahim@irorun.com",
+            "monthlyIncome": "300000-400000",
+            "loanRepayment": 20614
+        },
+        "socials": {
+            "twitter": "@ebuka_ibrahim",
+            "facebook": "Ebuka Ibrahim",
+            "instagram": "@ebuka_ibrahim"
+        },
+        "guarantor": {
+            "fullName": "Debby Balogun",
+            "phoneNumber": "07085639128",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "LSQ271913",
+        "organizationName": "Lendsqr",
+        "fullName": "Sarah Ogana",
+        "email": "sarahogana@lendsqr.com",
+        "phoneNumber": "07044604897",
+        "bvn": "BVN 46652141135",
+        "gender": "female",
+        "maritalStatus": "single",
+        "children": 0,
+        "residenceType": "self-owned",
+        "dateJoined": "2020-12-01T23:50:00",
+        "bank": "Providus Bank",
+        "accountBalance": 391519,
+        "userTier": 0,
+        "status": "pending",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "employed",
+            "sector": "EduTech",
+            "employmentDuration": "5",
+            "officeEmail": "sarahogana@lendstar.com",
+            "monthlyIncome": "100000-200000",
+            "loanRepayment": 30555
+        },
+        "socials": {
+            "twitter": "@sarah_ogana",
+            "facebook": "Sarah Ogana",
+            "instagram": "@sarah_ogana"
+        },
+        "guarantor": {
+            "fullName": "Michael Ibrahim",
+            "phoneNumber": "09090932362",
+            "relationship": "brother"
+        }
+    },
+    {
+        "userId": "LSQ617307",
+        "organizationName": "Lendsqr",
+        "fullName": "Grace Ibrahim",
+        "email": "graceibrahim@lendstar.com",
+        "phoneNumber": "07055990806",
+        "bvn": "BVN 19441416577",
+        "gender": "male",
+        "maritalStatus": "married",
+        "children": 3,
+        "residenceType": "self-owned",
+        "dateJoined": "2022-12-10T19:55:00",
+        "bank": "Providus Bank",
+        "accountBalance": 330993,
+        "userTier": 1,
+        "status": "blacklist",
+        "educationEmployment": {
+            "level": "B.Sc",
+            "employmentStatus": "unemployed",
+            "sector": "FinTech",
+            "employmentDuration": "5",
+            "officeEmail": "graceibrahim@lendsqr.com",
+            "monthlyIncome": "200000-300000",
+            "loanRepayment": 15282
+        },
+        "socials": {
+            "twitter": "@grace_ibrahim",
+            "facebook": "Grace Ibrahim",
+            "instagram": "@grace_ibrahim"
+        },
+        "guarantor": {
+            "fullName": "Sarah Balogun",
+            "phoneNumber": "07096281813",
+            "relationship": "brother"
+        }
+    }
+]
