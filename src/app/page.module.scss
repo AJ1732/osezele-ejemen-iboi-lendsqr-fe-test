@@ -1,0 +1,23 @@
+@import "@/scss/main.scss";
+
+.page {
+  min-height: 100svh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  h1 {
+    font-weight: 500;
+  }
+
+  a {
+    color: $primary-color;
+
+    &_:hover {
+      text-decoration: underline;
+    }
+  }
+}
