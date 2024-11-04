@@ -1,3 +1,9 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 //  MEDIA QUERIES FOR SCREEN SIZES
 @mixin for-phone-only {
   @media (min-width: 300px) and (max-width: 480px) {
