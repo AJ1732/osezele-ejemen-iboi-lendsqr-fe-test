@@ -1,3 +1,4 @@
+import { Header, Sidebar } from "@/components";
 import styles from "./layout.module.scss";
 
 export default function DashboardLayout({
@@ -6,11 +7,11 @@ export default function DashboardLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className={styles.dashLayout}>
-      <header className={styles.dashLayout__header}>Headbar</header>
+    <div className={styles["dashLayout"]}>
+      <Header className={styles["dashLayout__header"]} />
+      <Sidebar className={styles["dashLayout__sidebar"]} />
 
-      <aside className={styles.dashLayout__sidebar}>Sidebar</aside>
-      <main className={styles.dashLayout__main}>{children}</main>
+      <main className={styles["dashLayout__main"]}>{children}</main>
     </div>
   );
 }

@@ -1,2 +1,5 @@
 // ABSTRACT FILES STYLING
-@import "./abstract/functions", "./abstract/mixins", "./abstract/variables.scss";
+@forward './abstract/functions';
+@forward './abstract/mixins';
+@forward './abstract/variables';
+

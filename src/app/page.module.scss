@@ -1,4 +1,4 @@
-@import "@/scss/main.scss";
+@use 'src/scss/main' as *;
 
 .page {
   min-height: 100svh;

@@ -1,4 +1,4 @@
-@import "@/scss/main.scss";
+@use 'src/scss/main' as *;
 
 .dashLayout {
   min-height: 100dvh;
