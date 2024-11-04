@@ -1,14 +1,16 @@
+import styles from "./layout.module.scss";
+
 export default function DashboardLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <div>
-      <header>Headbar</header>
+    <div className={styles.dashLayout}>
+      <header className={styles.dashLayout__header}>Headbar</header>
 
-      <aside>Sidebar</aside>
-      <main>{children}</main>
+      <aside className={styles.dashLayout__sidebar}>Sidebar</aside>
+      <main className={styles.dashLayout__main}>{children}</main>
     </div>
   );
 }

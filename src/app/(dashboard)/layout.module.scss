@@ -1,0 +1,30 @@
+@import "@/scss/main.scss";
+
+.dashLayout {
+  min-height: 100dvh;
+  background-color: $background;
+  display: grid;
+  grid-template-columns: 18rem 1fr;
+  place-content: start;
+
+  &__header {
+    height: 6.25rem;
+    background-color: white;
+    padding-inline: 1.875rem;
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__sidebar {
+    padding: 2.4rem 1.875rem;
+    background-color: white;
+    min-height: calc(100dvh - 6.25rem);
+  }
+
+  &__main {
+    padding: 3.75rem;
+    min-height: calc(100dvh - 6.25rem);
+  }
+}
