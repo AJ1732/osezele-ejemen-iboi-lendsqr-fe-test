@@ -9,3 +9,4 @@ export { default as TableSection } from "./pages/users/TableSection";
 
 // UI COMPONENTS
 export { default as Button } from "./ui/Button";
+export { default as Badge } from "./ui/Badge";

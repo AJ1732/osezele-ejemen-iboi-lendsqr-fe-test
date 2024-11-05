@@ -1,0 +1,30 @@
+@use "src/scss/main" as *;
+
+.badge {
+  font-size: 0.875rem;
+  text-align: center;
+  display: inline-block;
+  line-height: normal;
+  padding: 0.4rem 1rem;
+  border-radius: 6.25rem;
+
+  &--inactive {
+    color: $secondary-color;
+    background-color: color-opacity($secondary-color, 90%);
+  }
+
+  &--pending {
+    color: $warning;
+    background-color: color-opacity($warning, 90%);
+  }
+
+  &--blacklisted {
+    color: $error;
+    background-color: color-opacity($error, 90%);
+  }
+
+  &--active {
+    color: $success;
+    background-color: color-opacity($success, 90%);
+  }
+}

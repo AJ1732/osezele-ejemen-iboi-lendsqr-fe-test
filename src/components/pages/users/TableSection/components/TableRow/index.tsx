@@ -1,3 +1,4 @@
+import { Badge } from "@/components";
 import { RowData } from "../../types";
 import styles from "./tablerow.module.scss";
 
@@ -13,7 +14,9 @@ const TableRow: React.FC<TableRowProps> = ({ data }) => {
       <td className={styles["row__email"]}>{data.email}</td>
       <td className={styles["row__phoneNumber"]}>{data.phoneNumber}</td>
       <td className={styles["row__dateJoined"]}>{data.dateJoined}</td>
-      <td className={styles["row__status"]}>{data.status}</td>
+      <td className={styles["row__status"]}>
+        <Badge label={data.status} />
+      </td>
       <td className={styles["row__icon"]}>
         <div></div>
       </td>
