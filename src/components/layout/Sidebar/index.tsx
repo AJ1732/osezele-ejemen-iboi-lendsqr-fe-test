@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import { BarLink } from "./components";
 import { barlinks } from "./constants";
 import styles from "./sidebar.module.scss";
@@ -8,7 +9,7 @@ interface SidebarProps {
 
 const Sidebar: React.FC<SidebarProps> = ({ className }) => {
   return (
-    <aside className={`${styles.sidebar} ${className || ""} no-scrollbar`}>
+    <aside className={clsx(styles.sidebar, "no-scrollbar", className)}>
       <div>
         <div />
         <span>Switch Organization</span>

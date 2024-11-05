@@ -1,8 +1,9 @@
 "use client";
+import clsx from "clsx";
+import Link from "next/link";
 import { useState } from "react";
 import { SearchInput } from "./components";
 import styles from "./header.module.scss";
-import Link from "next/link";
 
 interface HeaderProps {
   className: string;
@@ -20,7 +21,7 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
   };
 
   return (
-    <header className={`${styles.header} ${className || ""}`}>
+    <header className={clsx(styles.header, className)}>
       <h1>lendsqr</h1>
 
       <SearchInput
@@ -30,9 +31,9 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
       />
 
       <div className={styles.header__actions}>
-        <Link href={"."} >Docs</Link>
+        <Link href={"."}>Docs</Link>
 
-        <div  />
+        <div />
       </div>
     </header>
   );
