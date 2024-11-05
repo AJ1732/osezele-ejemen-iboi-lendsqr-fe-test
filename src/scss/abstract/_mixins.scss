@@ -1,13 +1,26 @@
-@mixin size($w, $h) {
-  width: $w;
-  height: $h;
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin square($length) {
+  width: $length;
+  height: $length;
 }
 
 @mixin flex($direction: row, $justify: center, $align: center, $gap: 0) {
   display: flex;
-  flex-direction: $direction; // Set the flex direction
+  flex-direction: $direction;
   justify-content: $justify;
   align-items: $align;
+  gap: $gap;
+}
+
+@mixin grid-display($columns: 1, $rows: auto, $gap: 0) {
+  display: grid;
+  grid-template-columns: repeat($columns, 1fr);
+  grid-template-rows: $rows;
+  place-content: start;
   gap: $gap;
 }
 

@@ -1,0 +1,36 @@
+@use "src/scss/main" as *;
+
+.statsContainer {
+  @include grid-display(4, auto, 1.625rem);
+
+  > div {
+    @include flex(column, flex-start, flex-start, 0.75rem);
+
+    min-height: 10rem;
+    padding: 1.25rem 1.875rem;
+    background-color: white;
+    box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    border-radius: 0.25rem;
+
+    div {
+      @include size(2.5rem, 2.5rem);
+
+      background-color: $secondary-color;
+      border-radius: 100%;
+    }
+
+    h4 {
+      font-weight: 500;
+      font-size: 0.875rem;
+      color: $secondary-color;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-weight: 600;
+      font-size: 1.5rem;
+      color: $text-color;
+    }
+  }
+}
