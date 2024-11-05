@@ -1,5 +1,5 @@
 "use client"
-import styles from './Button.module.scss';
+import styles from './button.module.scss';
 
 interface ButtonProps {
   label: string;

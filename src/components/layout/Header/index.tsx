@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { SearchInput } from "./components";
 import styles from "./header.module.scss";
+import Link from "next/link";
 
 interface HeaderProps {
   className: string;
@@ -28,7 +29,11 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
         onSearch={handleSearch}
       />
 
-      <div></div>
+      <div className={styles.header__actions}>
+        <Link href={"."} >Docs</Link>
+
+        <div  />
+      </div>
     </header>
   );
 };
