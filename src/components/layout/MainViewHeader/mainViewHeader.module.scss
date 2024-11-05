@@ -1,0 +1,7 @@
+@use "src/scss/main" as *;
+
+.header {
+  color: $text-color;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
