@@ -33,7 +33,13 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
       <div className={styles.header__actions}>
         <Link href={"."}>Docs</Link>
 
-        <div />
+        <div className={styles.header__actions__icon} />
+
+        <div className={styles.header__actions__profile}>
+          <div></div>
+          <span>Profile</span>
+          <span>^</span>
+        </div>
       </div>
     </header>
   );

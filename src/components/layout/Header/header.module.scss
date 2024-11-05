@@ -1,14 +1,25 @@
-@use 'src/scss/main' as *;
+@use "src/scss/main" as *;
 
 .header {
-  
   &__actions {
-    div {
-      @include flex(row, flex-end, flex-end, 3rem);
+    @include flex(row, flex-end, center, 3rem);
 
+    &__icon {
       width: 1.625rem;
       height: 1.625rem;
       background-color: $text-color;
+      border-radius: 100%;
+    }
+
+    &__profile {
+      @include flex(row, center, center, 1.875rem);
+
+      div {
+        width: 3rem;
+        height: 3rem;
+        background-color: $text-color;
+        border-radius: 100%;
+      }
     }
   }
 }
