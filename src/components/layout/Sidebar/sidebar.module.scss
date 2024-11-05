@@ -1,5 +1,40 @@
-@use 'src/scss/main' as *;
+@use "src/scss/main" as *;
 
 .sidebar {
-  color: red;
+  @include flex(column, flex-start, flex-start, 3rem);
+
+  > div {
+    @include flex(row, flex-start, center, 0.625rem);
+    padding: 0.625rem 1.875rem;
+
+    span {
+      color: $text-color;
+    }
+
+    div {
+      width: 1rem;
+      height: 1rem;
+      background-color: $secondary-color;
+      border-radius: 0.25rem;
+    }
+  }
+
+  nav {
+    width: 100%;
+    display: grid;
+    gap: 2.5rem;
+
+    h3 {
+      font-weight: 500;
+      font-size: 0.75rem;
+      padding: 0.625rem 1.875rem;
+      color: $secondary-color;
+      text-transform: uppercase;
+    }
+
+    ul {
+      display: grid;
+      gap: 0.5rem;
+    }
+  }
 }

@@ -1,3 +1,5 @@
+import { BarLink } from "./components";
+import { barlinks } from "./constants";
 import styles from "./sidebar.module.scss";
 
 interface SidebarProps {
@@ -5,6 +7,30 @@ interface SidebarProps {
 }
 
 const Sidebar: React.FC<SidebarProps> = ({ className }) => {
-  return <aside className={`${styles.sidebar} ${className || ""}`}>Sidebar</aside>;
+  return (
+    <aside className={`${styles.sidebar} ${className || ""} no-scrollbar`}>
+      <div>
+        <div />
+        <span>Switch Organization</span>
+        <div />
+      </div>
+
+      <nav>
+        {barlinks.map(({ title, links }) => (
+          <div>
+            <h3>{title}</h3>
+            <ul>
+              {links.map(({ label }) => (
+                <BarLink key={label} active={label === "users"}>
+                  <div />
+                  <span>{label}</span>
+                </BarLink>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </nav>
+    </aside>
+  );
 };
 export default Sidebar;

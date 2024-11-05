@@ -1,0 +1,30 @@
+@use "src/scss/main" as *;
+
+.barlink {
+  @include flex(row, flex-start, center, 0.625rem);
+
+  width: 100%;
+  font-weight: 400;
+  padding: 0.625rem 1.875rem;
+  color: color-opacity($text-color, 40%);
+
+  span {
+    text-transform: capitalize;
+  }
+
+  div {
+    width: 1rem;
+    height: 1rem;
+    background-color: color-opacity($secondary-color, 30%);
+    border-radius: 0.25rem;
+  }
+
+  &--active {
+    color: $text-color;
+    background-color: color-opacity($primary-color, 94%);
+
+    div {
+      background-color: $secondary-color;
+    }
+  }
+}

@@ -1,0 +1,3 @@
+@function color-opacity($color, $opacity: 60%) {
+  @return mix(white, $color, $opacity);
+}

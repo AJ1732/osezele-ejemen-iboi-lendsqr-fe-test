@@ -1,7 +1,7 @@
 @use 'src/scss/main' as *;
 
 .button {
-  @include flex-center;
+  @include flex;
 
   font-size: 0.875rem;
   font-weight: 600;
