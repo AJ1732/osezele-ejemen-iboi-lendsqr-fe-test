@@ -5,6 +5,8 @@
 
   > div {
     @include flex(row, flex-start, center, 0.625rem);
+    
+    width: 100%;
     padding: 0.625rem 1.875rem;
 
     span {

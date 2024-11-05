@@ -16,6 +16,11 @@ const Sidebar: React.FC<SidebarProps> = ({ className }) => {
         <div />
       </div>
 
+      <div>
+        <div />
+        <span>Dashboard</span>
+      </div>
+
       <nav>
         {barlinks.map(({ title, links }) => (
           <div key={title}>

@@ -2,7 +2,6 @@ export const barlinks = [
   {
     title: "customers",
     links: [
-      { label: "dashboard" },
       { label: "users" },
       { label: "guarantors" },
       { label: "loans" },
