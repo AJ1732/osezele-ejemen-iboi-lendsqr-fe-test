@@ -1,0 +1,37 @@
+@use "src/scss/main" as *;
+
+.row {
+  border-bottom: 1px solid rgba(33, 63, 125, 0.1);
+
+  &:last-child {
+    border: none;
+  }
+
+  td {
+    font-weight: 400;
+    font-size: 0.875rem;
+    padding-block: 1rem;
+    color: $secondary-color;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-right: 1.5rem;
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+
+  &__status {
+    padding-right: 1.5rem;
+  }
+
+  &__icon {
+    div {
+      @include square(1.25rem);
+
+      background-color: $secondary-color;
+      border-radius: 0.25rem;
+    }
+  }
+}

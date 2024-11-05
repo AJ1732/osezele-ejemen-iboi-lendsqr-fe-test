@@ -1,0 +1,44 @@
+@use "src/scss/main" as *;
+
+.container {
+  padding-inline: 1.875rem;
+
+  background-color: #fff;
+  box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.04);
+  border-radius: 0.25rem;
+  border: 1px solid rgba(33, 63, 125, 0.06);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+
+  th {
+    padding-block: 1.5rem;
+
+    > div {
+      @include flex(row, flex-start, flex-start, 0.625rem);
+
+      span {
+        text-align: left;
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: $text-color;
+        text-transform: uppercase;
+      }
+
+      div {
+        @include square(1rem);
+        display: inline-block;
+        background-color: $secondary-color;
+        border-radius: 0.25rem;
+      }
+    }
+
+    &:last-child {
+      div {
+        display: none;
+      }
+    }
+  }
+}
