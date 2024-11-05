@@ -9,7 +9,7 @@ const TableSection = () => {
         <thead>
           <tr>
             {tablehead.map((head) => (
-              <th>
+              <th key={head}>
                 <div>
                   <span>{head}</span> <div />
                 </div>
