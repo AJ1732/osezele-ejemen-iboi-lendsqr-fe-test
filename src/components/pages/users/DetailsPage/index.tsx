@@ -1,4 +1,11 @@
+import { DetailsSection, HeaderCard } from "./components";
+
 const DetailsPage = () => {
-  return <div>DetailsPage</div>;
+  return (
+    <>
+      <HeaderCard />
+      <DetailsSection />
+    </>
+  );
 };
 export default DetailsPage;

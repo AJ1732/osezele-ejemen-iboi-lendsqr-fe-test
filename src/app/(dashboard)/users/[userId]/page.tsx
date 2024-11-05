@@ -1,4 +1,5 @@
 "use client";
+import { DetailsPage } from "@/components";
 import { usePathname } from "next/navigation";
 
 const UserDetailsPage: React.FC = () => {
@@ -6,7 +7,12 @@ const UserDetailsPage: React.FC = () => {
 
   const userId = pathname?.split("/")[2];
 
-  return <div>User Details Page for ID: {userId}</div>;
+  return (
+    <div>
+      User Details Page for ID: {userId}
+      <DetailsPage />
+    </div>
+  );
 };
 
 export default UserDetailsPage;

@@ -6,6 +6,7 @@ export { default as PageHeader } from "./layout/PageHeader";
 // USER PAGE COMPONENTS
 export { default as StatsSection } from "./pages/users/StatsSection";
 export { default as TableSection } from "./pages/users/TableSection";
+export { default as DetailsPage } from "./pages/users/DetailsPage";
 
 // UI COMPONENTS
 export { default as Button } from "./ui/Button";
