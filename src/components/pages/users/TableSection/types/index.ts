@@ -1,4 +1,5 @@
 export interface RowData {
+  userId: string;
   organization: string;
   username: string;
   email: string;

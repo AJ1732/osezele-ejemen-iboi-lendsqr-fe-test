@@ -1,3 +1,5 @@
+"use client";
+import { useRouter } from "next/navigation";
 import { Badge } from "@/components";
 import { RowData } from "../../types";
 import styles from "./tablerow.module.scss";
@@ -7,8 +9,13 @@ interface TableRowProps {
 }
 
 const TableRow: React.FC<TableRowProps> = ({ data }) => {
+  const router = useRouter();
+
   return (
-    <tr className={styles["row"]}>
+    <tr
+      className={styles["row"]}
+      onClick={() => router.push(`/users/${data.userId}`)}
+    >
       <td className={styles["row__organization"]}>{data.organization}</td>
       <td className={styles["row__username"]}>{data.username}</td>
       <td className={styles["row__email"]}>{data.email}</td>

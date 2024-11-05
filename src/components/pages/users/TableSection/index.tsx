@@ -40,7 +40,8 @@ const tablehead = [
 
 const data: RowData[] = [
   {
-    organization: "Landstar",
+    userId:"LSQFf587g90",
+    organization: "Lendsqr",
     username: "Darby Diegnan",
     email: "darby.diegnan@landstar.com",
     phoneNumber: "0765534229",
@@ -48,6 +49,7 @@ const data: RowData[] = [
     status: "Inactive",
   },
   {
+    userId:"LSR253041",
     organization: "Landstar",
     username: "Darby Diegnan",
     email: "darby.diegnan@landstar.com",
