@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import { BarLink } from "./components";
+import { BarLink, DashLink } from "./components";
 import { barlinks } from "./constants";
 import styles from "./sidebar.module.scss";
 
@@ -16,10 +16,7 @@ const Sidebar: React.FC<SidebarProps> = ({ className }) => {
         <div />
       </div>
 
-      <div>
-        <div />
-        <span>Dashboard</span>
-      </div>
+      <DashLink />
 
       <nav>
         {barlinks.map(({ title, links }) => (
@@ -27,7 +24,7 @@ const Sidebar: React.FC<SidebarProps> = ({ className }) => {
             <h3>{title}</h3>
             <ul>
               {links.map(({ label }) => (
-                <BarLink key={label} active={label === "users"}>
+                <BarLink key={label} link={label}>
                   <div />
                   <span>{label}</span>
                 </BarLink>
