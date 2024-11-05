@@ -1,3 +1,5 @@
-@function color-opacity($color, $opacity: 60%) {
-  @return mix(white, $color, $opacity);
+@use "sass:color";
+
+@function color-opacity($color, $opacity) {
+  @return color.mix(white, $color, $opacity);
 }
