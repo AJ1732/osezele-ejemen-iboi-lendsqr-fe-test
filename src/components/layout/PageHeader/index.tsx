@@ -1,6 +1,6 @@
 "use client";
 import { usePathname } from "next/navigation";
-import styles from "./mainViewHeader.module.scss";
+import styles from "./pageHeader.module.scss";
 
 const MainViewHeader = () => {
   const pathname = usePathname();

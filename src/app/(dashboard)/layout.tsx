@@ -1,4 +1,4 @@
-import { Header, Sidebar, MainViewHeader } from "@/components";
+import { Header, Sidebar, PageHeader } from "@/components";
 import styles from "./layout.module.scss";
 
 export default function DashboardLayout({
@@ -12,7 +12,7 @@ export default function DashboardLayout({
       <Sidebar className={styles["dashLayout__sidebar"]} />
 
       <main className={styles["dashLayout__main"]}>
-        <MainViewHeader />
+        <PageHeader />
         {children}
       </main>
     </div>
