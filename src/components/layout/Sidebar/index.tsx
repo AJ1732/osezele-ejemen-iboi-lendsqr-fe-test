@@ -21,7 +21,7 @@ const Sidebar: React.FC<SidebarProps> = ({ className }) => {
       <nav>
         {barlinks.map(({ title, links }) => (
           <div key={title}>
-            <h3>{title}</h3>
+            <h4>{title}</h4>
             <ul>
               {links.map(({ label }) => (
                 <BarLink key={label} link={label}>
