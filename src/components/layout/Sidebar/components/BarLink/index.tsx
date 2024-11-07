@@ -12,9 +12,10 @@ interface BarLinkProps {
 
 const BarLink: React.FC<BarLinkProps> = ({ link, className, children }) => {
   const pathname = usePathname();
-  const path = pathname.slice(1);
-  
-  const active = path === link;
+
+  const active =
+    pathname === `/${link}` ||
+    (pathname.startsWith(`/${link}`) && pathname[link.length + 1] === "/");
 
   return (
     <li>
@@ -26,6 +27,7 @@ const BarLink: React.FC<BarLinkProps> = ({ link, className, children }) => {
           className
         )}
       >
+        <div />
         {children}
       </Link>
     </li>

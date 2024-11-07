@@ -32,6 +32,7 @@ export const barlinks = [
       { label: "preferences" },
       { label: "fees and pricing" },
       { label: "audit logs" },
+      { label: "systems messages" },
     ],
   },
 ];

@@ -9,7 +9,7 @@ interface SidebarProps {
 
 const Sidebar: React.FC<SidebarProps> = ({ className }) => {
   return (
-    <aside className={clsx(styles.sidebar, "no-scrollbar", className)}>
+    <aside className={clsx(styles["sidebar"], "no-scrollbar", className)}>
       <div>
         <div />
         <span>Switch Organization</span>
@@ -33,6 +33,13 @@ const Sidebar: React.FC<SidebarProps> = ({ className }) => {
           </div>
         ))}
       </nav>
+
+      <div className={styles["logout"]}>
+        <div />
+        <span>Logout</span>
+      </div>
+
+      <p>v1.2.0</p>
     </aside>
   );
 };
