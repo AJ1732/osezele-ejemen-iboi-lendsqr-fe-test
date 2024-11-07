@@ -17,16 +17,20 @@
     align-items: center;
   }
 
-  &__sidebar {
-    padding-block: 2.4rem;
-    background-color: white;
+  &__sidebar,
+  &__main {
     max-height: calc(100dvh - 6.25rem);
     overflow-y: scroll;
   }
 
+  &__sidebar {
+    padding-block: 2.4rem;
+    background-color: white;
+  }
+
   &__main {
     @include grid-display(1, auto, 2.5rem);
-    
+
     padding: 3.75rem;
     min-height: calc(100dvh - 6.25rem);
 
