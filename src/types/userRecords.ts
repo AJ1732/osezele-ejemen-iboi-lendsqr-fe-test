@@ -35,7 +35,7 @@ interface ApiData {
   bank: string;
   accountBalance: number;
   userTier: number;
-  status: string;
+  status: "inactive" | "active" | "pending" | "blacklisted";
   educationEmployment: EducationEmployment;
   socials: Socials;
   guarantor: Guarantor;

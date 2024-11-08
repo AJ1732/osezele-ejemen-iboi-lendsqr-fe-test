@@ -1,5 +1,6 @@
 "use client";
 import { usePathname, useRouter } from "next/navigation";
+import { NavigateBackSVG } from "@/components/svgs";
 import styles from "./pageHeader.module.scss";
 
 const MainViewHeader = () => {
@@ -19,7 +20,7 @@ const MainViewHeader = () => {
     <header className={styles["header"]}>
       {pathname !== parentRoute && (
         <div onClick={() => router.push(parentRoute)}>
-          <div />
+          <NavigateBackSVG />
           <span>{backLinkText}</span>
         </div>
       )}

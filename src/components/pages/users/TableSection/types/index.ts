@@ -5,5 +5,5 @@ export interface RowData {
   email: string;
   phoneNumber: string;
   dateJoined: string;
-  status: string;
+  status: "inactive" | "active" | "pending" | "blacklisted";
 }
