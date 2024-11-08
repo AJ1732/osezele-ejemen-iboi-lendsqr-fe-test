@@ -16,17 +16,12 @@ const HeaderCard: React.FC<HeaderCardProps> = ({ userId }) => {
   useEffect(() => {
     async function retrieveData() {
       const allData = await fetchUsersData();
-
-      // Flatten the data and find the specific user by userId
       const userData = allData.find((user) => user.userId === userId);
-
-      setUserRecord(userData || null); // Set user data if found, otherwise null
+      setUserRecord(userData || null);
     }
 
     retrieveData();
   }, [userId]);
-
-  console.log(userRecord);
 
   if (!userRecord) {
     return <div>Loading...</div>;
