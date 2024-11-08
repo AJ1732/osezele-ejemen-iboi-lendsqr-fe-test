@@ -1,7 +1,7 @@
 export interface RowData {
   userId: string;
-  organization: string;
-  username: string;
+  organizationName: string;
+  fullName: string;
   email: string;
   phoneNumber: string;
   dateJoined: string;

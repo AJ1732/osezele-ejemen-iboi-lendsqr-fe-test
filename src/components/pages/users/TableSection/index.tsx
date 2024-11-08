@@ -1,11 +1,37 @@
-import { TableRow } from "./components";
-import { RowData } from "./types";
+"use client";
+import { useEffect, useState } from "react";
+import { Pagination, TableRow } from "./components";
 import { FilterResultsSVG } from "@/components/svgs";
+import { fetchUsersData } from "@/data";
+import { RowData } from "./types";
 import styles from "./table.module.scss";
 
 const TableSection = () => {
+  const [data, setData] = useState<RowData[]>([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const recordsPerPage = 10;
+
+  useEffect(() => {
+    async function retrieveData() {
+      const data = await fetchUsersData();
+      setData(data);
+    }
+    retrieveData();
+  }, []);
+
+  const indexOfLastRecord = currentPage * recordsPerPage;
+  const indexOfFirstRecord = indexOfLastRecord - recordsPerPage;
+  const currentRecords = data.slice(indexOfFirstRecord, indexOfLastRecord);
+
+  const handlePageChange = (pageNumber: number) => {
+    setCurrentPage(pageNumber);
+  };
+
+  const totalPages = Math.ceil(data.length / recordsPerPage);
+
   return (
     <section className={styles["container"]}>
+      {/* TABLE */}
       <table className={styles["table"]}>
         <thead>
           <tr>
@@ -22,11 +48,18 @@ const TableSection = () => {
           </tr>
         </thead>
         <tbody>
-          {data.map((rowData, index) => (
+          {currentRecords.map((rowData, index) => (
             <TableRow key={index} data={rowData} />
           ))}
         </tbody>
       </table>
+
+      {/* PAGINATION */}
+      <Pagination
+        currentPage={currentPage}
+        totalPages={totalPages}
+        handlePageChange={handlePageChange}
+      />
     </section>
   );
 };
@@ -40,43 +73,4 @@ const tablehead = [
   "date joined",
   "status",
   "",
-];
-
-const data: RowData[] = [
-  {
-    userId: "LSQFf587g90",
-    organization: "Lendsqr",
-    username: "Darby Diegnan",
-    email: "darby.diegnan@landstar.com",
-    phoneNumber: "0765534229",
-    dateJoined: "Apr 26, 2020 05:00 AM",
-    status: "inactive",
-  },
-  {
-    userId: "LSR253041",
-    organization: "Landstar",
-    username: "Darby Diegnan",
-    email: "darby.diegnan@landstar.com",
-    phoneNumber: "0765534229",
-    dateJoined: "Apr 26, 2020 05:00 AM",
-    status: "active",
-  },
-  {
-    userId: "LSR253041",
-    organization: "Landstar",
-    username: "Darby Diegnan",
-    email: "darby.diegnan@landstar.com",
-    phoneNumber: "0765534229",
-    dateJoined: "Apr 26, 2020 05:00 AM",
-    status: "blacklisted",
-  },
-  {
-    userId: "LSR253041",
-    organization: "Landstar",
-    username: "Darby Diegnan",
-    email: "darby.diegnan@landstar.com",
-    phoneNumber: "0765534229",
-    dateJoined: "Apr 26, 2020 05:00 AM",
-    status: "pending",
-  },
 ];
