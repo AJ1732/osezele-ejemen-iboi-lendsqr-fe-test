@@ -3,6 +3,8 @@
 .container {
   @include flex(row, space-between, center, 1rem);
 
+  margin-top: -1.5rem;
+
   div:first-child {
     @include flex(row, flex-start, center, 0.625rem);
 
@@ -21,40 +23,39 @@
   }
 
   .pagination {
-    @include flex(row, center, center, 1rem);
+    @include flex(row, center, center, 1.25rem);
 
     padding: 1rem 0;
     max-width: 65rem;
     overflow: hidden;
-    background: red;
 
-    button {
-      padding: 0.5rem 1rem;
+    li,
+    .page {
+      list-style: none;
+      font-size: 1rem;
+      color: color-opacity($secondary-color, 40%);
       border: none;
       border-radius: 0.25rem;
-      cursor: pointer;
       transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+      cursor: pointer;
 
       &:hover {
-        background-color: #f0f0f0;
+        color: $secondary-color;
       }
+    }
 
-      &--active {
-        background-color: #007bff;
-        color: #fff;
-      }
+    .selected {
+      color: $secondary-color;
+    }
 
-      &--disabled {
-        cursor: not-allowed;
-        opacity: 0.6;
-      }
+    .previous,
+    .next {
+      @include square(1.5rem);
+      @include flex(row, flex-center, flex-center, 0);
 
-      // &--previous,
-      // &--next {
-      // }
-
-      // &--page {
-      // }
+      padding: 0.3rem;
+      background-color: color-opacity($text-color, 90%);
+      border-radius: 0.25rem;
     }
   }
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import ReactPaginate from "react-paginate";
 import styles from "./pagination.module.scss";
-import { DropdownSVG } from "@/components/svgs";
+import { ArrowNextSVG, ArrowPreviousSVG, DropdownSVG } from "@/components/svgs";
 
 interface PaginationProps {
   currentPage: number;
@@ -21,16 +21,24 @@ const Pagination: React.FC<PaginationProps> = ({
   return (
     <div className={styles["container"]}>
       <div>
-        showing 
+        Showing
         <span>
           10 <DropdownSVG fillColor="#6F83AA" />
-        </span> 
-        out of 100
+        </span>
+        out of 500
       </div>
 
       <ReactPaginate
-        previousLabel="Previous"
-        nextLabel="Next"
+        previousLabel={
+          <div>
+            <ArrowPreviousSVG />
+          </div>
+        }
+        nextLabel={
+          <div>
+            <ArrowNextSVG />
+          </div>
+        }
         breakLabel="..."
         breakClassName={styles["ellipsis"]}
         pageCount={Math.max(totalPages, 1)}
@@ -41,7 +49,7 @@ const Pagination: React.FC<PaginationProps> = ({
         pageClassName={styles["page"]}
         previousClassName={styles["previous"]}
         nextClassName={styles["next"]}
-        activeClassName={styles["active"]}
+        activeClassName={styles["selected"]}
         disabledClassName={styles["disabled"]}
         forcePage={Math.max(currentPage - 1, 0)}
       />

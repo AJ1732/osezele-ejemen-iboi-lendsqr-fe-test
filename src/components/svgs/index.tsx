@@ -1,3 +1,5 @@
+export { default as ArrowNextSVG } from "./ArrowNextSVG";
+export { default as ArrowPreviousSVG } from "./ArrowPreviousSVG";
 export { default as BadgePercentSVG } from "./BadgePercentSVG";
 export { default as BankSVG } from "./BankSVG";
 export { default as BriefCaseSVG } from "./BriefCaseSVG";

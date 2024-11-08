@@ -30,29 +30,31 @@ const TableSection = () => {
   const totalPages = Math.ceil(data.length / recordsPerPage);
 
   return (
-    <section className={styles["container"]}>
+    <>
       {/* TABLE */}
-      <table className={styles["table"]}>
-        <thead>
-          <tr>
-            {tablehead.map((head) => (
-              <th key={head}>
-                <div>
-                  <span>{head}</span>
-                  <button type="button">
-                    <FilterResultsSVG />
-                  </button>
-                </div>
-              </th>
+      <section className={styles["container"]}>
+        <table className={styles["table"]}>
+          <thead>
+            <tr>
+              {tablehead.map((head) => (
+                <th key={head}>
+                  <div>
+                    <span>{head}</span>
+                    <button type="button">
+                      <FilterResultsSVG />
+                    </button>
+                  </div>
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {currentRecords.map((rowData, index) => (
+              <TableRow key={index} data={rowData} />
             ))}
-          </tr>
-        </thead>
-        <tbody>
-          {currentRecords.map((rowData, index) => (
-            <TableRow key={index} data={rowData} />
-          ))}
-        </tbody>
-      </table>
+          </tbody>
+        </table>
+      </section>
 
       {/* PAGINATION */}
       <Pagination
@@ -60,7 +62,7 @@ const TableSection = () => {
         totalPages={totalPages}
         handlePageChange={handlePageChange}
       />
-    </section>
+    </>
   );
 };
 export default TableSection;
