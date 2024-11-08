@@ -1,5 +1,6 @@
 import { TableRow } from "./components";
 import { RowData } from "./types";
+import { FilterResultsSVG } from "@/components/svgs";
 import styles from "./table.module.scss";
 
 const TableSection = () => {
@@ -11,7 +12,10 @@ const TableSection = () => {
             {tablehead.map((head) => (
               <th key={head}>
                 <div>
-                  <span>{head}</span> <div />
+                  <span>{head}</span>
+                  <button type="button">
+                    <FilterResultsSVG />
+                  </button>
                 </div>
               </th>
             ))}
@@ -40,21 +44,39 @@ const tablehead = [
 
 const data: RowData[] = [
   {
-    userId:"LSQFf587g90",
+    userId: "LSQFf587g90",
     organization: "Lendsqr",
     username: "Darby Diegnan",
     email: "darby.diegnan@landstar.com",
     phoneNumber: "0765534229",
     dateJoined: "Apr 26, 2020 05:00 AM",
-    status: "Inactive",
+    status: "inactive",
   },
   {
-    userId:"LSR253041",
+    userId: "LSR253041",
     organization: "Landstar",
     username: "Darby Diegnan",
     email: "darby.diegnan@landstar.com",
     phoneNumber: "0765534229",
     dateJoined: "Apr 26, 2020 05:00 AM",
-    status: "Inactive",
+    status: "active",
+  },
+  {
+    userId: "LSR253041",
+    organization: "Landstar",
+    username: "Darby Diegnan",
+    email: "darby.diegnan@landstar.com",
+    phoneNumber: "0765534229",
+    dateJoined: "Apr 26, 2020 05:00 AM",
+    status: "blacklisted",
+  },
+  {
+    userId: "LSR253041",
+    organization: "Landstar",
+    username: "Darby Diegnan",
+    email: "darby.diegnan@landstar.com",
+    phoneNumber: "0765534229",
+    dateJoined: "Apr 26, 2020 05:00 AM",
+    status: "pending",
   },
 ];

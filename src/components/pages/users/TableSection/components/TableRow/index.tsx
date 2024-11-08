@@ -3,6 +3,7 @@ import { useRouter } from "next/navigation";
 import { Badge } from "@/components";
 import { RowData } from "../../types";
 import styles from "./tablerow.module.scss";
+import { MoreEllipseSVG } from "@/components/svgs";
 
 interface TableRowProps {
   data: RowData;
@@ -25,7 +26,9 @@ const TableRow: React.FC<TableRowProps> = ({ data }) => {
         <Badge label={data.status} />
       </td>
       <td className={styles["row__icon"]}>
-        <div></div>
+        <button type="button">
+          <MoreEllipseSVG />
+        </button>
       </td>
     </tr>
   );
