@@ -13,11 +13,24 @@
     border: 1px solid rgba(33, 63, 125, 0.06);
     border-radius: 0.25rem;
 
-    div {
+    .icon {
+      @include flex(column, center, center, 0);
       @include size(2.5rem, 2.5rem);
 
-      background-color: $secondary-color;
       border-radius: 100%;
+
+      &--all {
+        background-color: color-opacity(#df18ff, 90%);
+      }
+      &--active {
+        background-color: color-opacity(#5718ff, 90%);
+      }
+      &--loans {
+        background-color: color-opacity(#f55f44, 90%);
+      }
+      &--savings {
+        background-color: color-opacity(#ff3366, 90%);
+      }
     }
 
     h4 {
