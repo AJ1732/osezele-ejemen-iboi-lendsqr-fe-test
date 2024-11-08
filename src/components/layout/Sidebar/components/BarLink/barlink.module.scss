@@ -14,9 +14,10 @@
   }
 
   div {
-    width: 1rem;
-    height: 1rem;
-    background-color: color-opacity($secondary-color, 30%);
+    @include square(1rem);
+    @include flex(row, center, center, 0);
+
+    // background-color: color-opacity($secondary-color, 30%);
     border-radius: 0.25rem;
 
     &:first-child {
@@ -43,18 +44,14 @@
   }
 
   &--active {
-    div {
-      background-color: $secondary-color;
-
-      &:first-child {
-        display: block;
-        height: 100%;
-        width: 0.1875rem;
-        background-color: $primary-color;
-        position: absolute;
-        inset-block: 0;
-        left: 0;
-      }
+    div:first-child {
+      display: block;
+      height: 100%;
+      width: 0.1875rem;
+      background-color: $primary-color;
+      position: absolute;
+      inset-block: 0;
+      left: 0;
     }
   }
 }

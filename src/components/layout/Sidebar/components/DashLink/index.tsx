@@ -2,6 +2,7 @@
 import clsx from "clsx";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { HomeSVG } from "@/components/svgs";
 import styles from "./dashlink.module.scss";
 
 const DashLink = () => {
@@ -16,6 +17,7 @@ const DashLink = () => {
       })}
     >
       <div />
+      <HomeSVG fillColor={active ? "#213F7D" : "#7A8CB1"} />
       <span>Dashboard</span>
     </Link>
   );
