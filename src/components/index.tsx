@@ -10,5 +10,6 @@ export { default as HeaderCard } from "./pages/users/HeaderCard";
 export { default as DetailsSection } from "./pages/users/DetailsSection";
 
 // UI COMPONENTS
-export { default as Button } from "./ui/Button";
 export { default as Badge } from "./ui/Badge";
+export { default as Button } from "./ui/Button";
+export { default as LoginForm } from "./ui/LoginForm";

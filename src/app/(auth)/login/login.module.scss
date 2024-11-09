@@ -1,0 +1,20 @@
+@use "src/scss/main" as *;
+
+.loginPage {
+  @include flex(row, flex-start, center, 4.5rem);
+
+  min-height: 100dvh;
+  padding: 6rem 4rem;
+
+  > div {
+    width: 100%;
+    @include flex(column, flex-start, flex-start, 4.5rem);
+
+    figure {
+      width: 100%;
+      position: relative;
+      width: 37.5rem;
+      height: 21.09806rem;
+    }
+  }
+}
