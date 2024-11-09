@@ -29,6 +29,12 @@ const HeaderCard: React.FC<HeaderCardProps> = ({ userId }) => {
 
   return (
     <section className={styles["headerCard"]}>
+      
+      <div className={styles["headerCard__actions"]}>
+        <button>blacklist user</button>
+        <button>activate user</button>
+      </div>
+
       <div className={styles["headerCard__info"]}>
         <div>
           <div>

@@ -18,19 +18,25 @@
     }
 
     > div {
-      @include flex(row, flex-start, flex-start, 5.25rem);
-      flex-wrap: wrap;
       color: $secondary-color;
 
-      h4 {
-        font-weight: 400;
-        font-size: 0.75rem;
-        margin-bottom: 0.5rem;
-        text-transform: uppercase;
-      }
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+      grid-gap: 1rem;
 
-      p {
-        font-weight: 500;
+      div {
+        width: 100%;
+
+        h4 {
+          font-weight: 400;
+          font-size: 0.75rem;
+          margin-bottom: 0.5rem;
+          text-transform: uppercase;
+        }
+
+        p {
+          font-weight: 500;
+        }
       }
     }
 

@@ -7,6 +7,34 @@
   background: white;
   box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.04);
   border: 1px solid rgba(33, 63, 125, 0.06);
+  position: relative;
+
+  &__actions {
+    @include flex(row, flex-end, center, 1.25rem);
+
+    position: absolute;
+    top: -5em;
+    right: 0;
+
+    button {
+      font-weight: 600;
+      font-size: 0.875rem;
+      text-transform: uppercase;
+      letter-spacing: 0.0875rem;
+      border-radius: 0.5rem;
+      padding: 0.75rem 1rem;
+
+      &:first-child {
+        color: $error;
+        border: 1px solid $error;
+      }
+      
+      &:last-child {
+        color: #39CDCC;
+        border: 1px solid #39CDCC;
+      }
+    }
+  }
 
   &__info {
     @include flex(row, flex-start, center, 0);
