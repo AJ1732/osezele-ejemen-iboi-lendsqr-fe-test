@@ -1,0 +1,44 @@
+@use "src/scss/main" as *;
+
+.header {
+  &__actions {
+    @include flex(row, flex-end, center, 3rem);
+
+    a {
+      color: $text-color;
+      font-size: 1rem;
+      font-weight: 400;
+      text-decoration-line: underline;
+      text-decoration-style: solid;
+      text-decoration-skip-ink: none;
+      text-decoration-thickness: auto;
+      text-underline-offset: auto;
+      text-underline-position: from-font;
+    }
+
+    &__icon {
+      width: 1.625rem;
+      height: 1.625rem;
+      border-radius: 100%;
+    }
+
+    &__profile {
+      @include flex(row, center, center, 0.625rem);
+
+      figure {
+        position: relative;
+        overflow: hidden;
+        width: 3rem;
+        height: 3rem;
+        background-color: $text-color;
+        border-radius: 100%;
+      }
+
+      span {
+        color: $text-color;
+        font-size: 1rem;
+        font-weight: 500;
+      }
+    }
+  }
+}
