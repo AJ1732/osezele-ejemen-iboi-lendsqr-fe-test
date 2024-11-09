@@ -1,4 +1,4 @@
-@use 'src/scss/main' as *;
+@use "src/scss/main" as *;
 
 .page {
   min-height: 100svh;
@@ -15,9 +15,10 @@
 
   a {
     color: $primary-color;
+    text-decoration: underline;
 
-    &_:hover {
-      text-decoration: underline;
-    }
+    // &_:hover {
+    //   text-decoration: underline;
+    // }
   }
 }

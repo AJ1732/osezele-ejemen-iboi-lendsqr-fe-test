@@ -6,7 +6,7 @@ export default function Home() {
     <div className={styles.page}>
       <h1>Welcome to Lendsqr Admin</h1>
       <p>
-        Go to <Link href={"/dashboard"}>Dashboard</Link>
+        <Link href={"/login"}>Login</Link> to go to Dashboard
       </p>
     </div>
   );
