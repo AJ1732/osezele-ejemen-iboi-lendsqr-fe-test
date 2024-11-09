@@ -9,14 +9,8 @@
   color: color-opacity($text-color, 40%);
   position: relative;
 
-  span {
-    color: color-opacity($text-color, 40%);
-  }
-
   div {
     @include square(1rem);
-
-    // background-color: color-opacity($secondary-color, 30%);
     border-radius: 0.25rem;
 
     &:first-child {
