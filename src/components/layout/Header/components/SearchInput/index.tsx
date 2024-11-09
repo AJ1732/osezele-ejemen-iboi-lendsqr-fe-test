@@ -1,3 +1,4 @@
+import { SearchSVG } from "@/components/svgs";
 import styles from "./searchinput.module.scss";
 
 interface SearchInputProps {
@@ -26,7 +27,7 @@ const SearchInput: React.FC<SearchInputProps> = ({
         className={styles["search__button"]}
         aria-label="Search"
       >
-        S
+        <SearchSVG />
       </button>
     </div>
   );
