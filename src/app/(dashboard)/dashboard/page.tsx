@@ -1,4 +1,3 @@
-import { Button } from "@/components";
 import styles from "./dashboard.module.scss";
 
 const DashboardPage = () => {
