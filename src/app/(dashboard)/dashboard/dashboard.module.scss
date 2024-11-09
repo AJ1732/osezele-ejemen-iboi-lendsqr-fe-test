@@ -1,1 +1,72 @@
-@use 'src/scss/main' as *;
+@use "src/scss/main" as *;
+
+.dashboard {
+  @include flex(row, flex-center, flex-center, 1.5rem);
+  flex-wrap: wrap;
+
+  > div {
+    width: 16rem;
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0px 15px 90px 0px rgba(0, 0, 0, 0.03);
+
+    > div {
+      &:first-child {
+        position: relative;
+        padding: 1rem;
+        padding-left: 2rem;
+        border-bottom: 1px solid color-opacity($secondary-color, 90%);
+
+        > div {
+          left: 1rem;
+          width: 2px;
+          inset-block: 1rem;
+          padding-top: 0.75rem;
+          background-color: $primary-color;
+          position: absolute;
+        }
+
+        h4 {
+          font-weight: 400;
+          font-size: 0.75rem;
+          padding-top: 0.5rem;
+          color: $secondary-color;
+          margin-bottom: 0.25rem;
+        }
+
+        p {
+          font-weight: 600;
+          font-size: 1.75rem;
+          color: $text-color;
+        }
+      }
+
+      &:last-child {
+        padding-inline: 1rem;
+
+        > div {
+          @include flex(row, space-between, center, 1.5rem);
+
+          font-size: 0.75rem;
+          padding-block: 0.75rem;
+          border-bottom: 1px solid color-opacity($secondary-color, 90%);
+
+          &:last-child {
+            border-bottom: 0px;
+          }
+
+          p {
+            color: $secondary-color;
+            text-transform: uppercase;
+          }
+
+          span {
+            font-weight: 600;
+            font-size-adjust: 1.2rem;
+            color: $text-color;
+          }
+        }
+      }
+    }
+  }
+}
