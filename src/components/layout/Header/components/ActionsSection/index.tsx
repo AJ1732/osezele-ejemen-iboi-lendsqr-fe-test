@@ -2,10 +2,11 @@ import Link from "next/link";
 import Image from "next/image";
 import { NotificationSVG, Dropdown2SVG } from "@/components/svgs";
 import styles from "./actionsSection.module.scss";
+import clsx from "clsx";
 
-const ActionsSection = () => {
+const ActionsSection = ({ className }: { className?: string }) => {
   return (
-    <div className={styles["header__actions"]}>
+    <div className={clsx(styles["header__actions"], className)}>
       <Link href={"."}>Docs</Link>
 
       <div className={styles["header__actions__icon"]}>

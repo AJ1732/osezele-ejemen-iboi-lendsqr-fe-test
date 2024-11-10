@@ -51,7 +51,7 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
             onSearch={handleSearch}
           />
 
-          <ActionsSection />
+          <ActionsSection className={styles["header__sm__nav__actions"]} />
         </div>
       )}
 
