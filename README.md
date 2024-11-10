@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lendsqr Admin Console - Frontend Assessment
+
+This repository contains the frontend implementation of the Lendsqr Admin Console, developed as part of the Lendsqr job assessment. The project aims to mirror the provided Figma design with a focus on pixel-perfect rendering, responsive design, code quality, and performance.
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Tech Stack](#tech-stack)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the Project](#running-the-project)
+- [Project Structure](#project-structure)
+- [Design and Architecture](#design-and-architecture)
+
+
+---
+
+## Project Overview
+
+The Lendsqr Admin Console is built with a focus on:
+- **Visual Fidelity**: Pixel-perfect and responsive UI that mirrors the provided Figma design.
+- **Code Quality**: Well-structured code adhering to React best practices.
+- **Component Reusability**: Modular components following the atomic design principle.
+- **Scalability**: Using state management and organized directory structure to support growth.
+
+## Tech Stack
+
+- **Framework**: Next.js
+- **Language**: TypeScript
+- **Styling**: SCSS Modules
+- **State Management**: Context API
+- **HTTP Client**: Axios
+
+## Features
+
+- **Responsive Design**: Works seamlessly across desktop, tablet, and mobile.
+- **Global State Management**: ContextAPI is used to manage global states efficiently.
+- **Reusable Components**: Follows atomic design principles to create scalable and reusable components.
+- **API Integration**: Axios for handling API calls with efficient data handling.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+Make sure you have the following installed on your system:
+- [Node.js](https://nodejs.org/) (version 16+)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/AJ1732/osezele-ejemen-iboi-lendsqr-fe-test.git
+   cd osezele-ejemen-iboi-lendsqr-fe-test
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+### Running the Project
+
+To start the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The app will be available at `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```plaintext
+/src
+|-- app                 # Next.js App Router configuration
+|-- components          # Reusable UI components
+|-- context             # Context API state management 
+|-- data                # Static data files
+|-- scss                # SCSS modules for styling
+|-- types               # TypeScript types and interfaces
+|-- utils               # Utility functions and custom hooks
+```
 
-## Learn More
+## Design and Architecture
 
-To learn more about Next.js, take a look at the following resources:
+The app follows **React design patterns** for scalability and maintainability:
+- **Atomic Design**: Components are broken down into smaller, reusable parts.
+- **Compound Components**: Used for flexible component customization.
+- **Provider Pattern**: Encapsulates context API state management in a central context provider.
+- **Custom Hooks**: Encapsulates reusable logic in `/utils`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Example Test Scenarios
+- **Component Rendering**: Tests to check if components render correctly.
+- **API Calls**: Mocked API calls for both success and failure cases.
+- **UI Behavior**: Positive and negative test cases for user interactions.
