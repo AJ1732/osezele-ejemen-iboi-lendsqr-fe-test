@@ -14,8 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <NextTopLoader color="#39CDCC" />
-      <body>{children}</body>
+      <body>
+        <NextTopLoader color="#39CDCC" />
+        {children}
+      </body>
     </html>
   );
 }

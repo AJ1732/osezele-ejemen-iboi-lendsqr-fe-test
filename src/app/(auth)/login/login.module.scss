@@ -1,7 +1,11 @@
 @use "src/scss/main" as *;
 
 .loginPage {
-  @include flex(row, flex-start, center, 4.5rem);
+  @include flex(column, flex-start, center, 4.5rem);
+
+  @include for-md-up {
+    @include flex(row, flex-start, center, 4.5rem);
+  }
 
   min-height: 100dvh;
   padding: 6rem 4rem;
@@ -13,8 +17,12 @@
     figure {
       width: 100%;
       position: relative;
-      width: 37.5rem;
-      height: 21.09806rem;
+      max-width: 37.5rem;
+      min-height: 21.09806rem;
+
+      img {
+        object-fit: cover;
+      }
     }
   }
 }
