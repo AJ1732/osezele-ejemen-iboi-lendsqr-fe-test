@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./FilterForm.module.scss";
+import styles from "./filterform.module.scss";
 import clsx from "clsx";
 
 interface FilterFormProps {
