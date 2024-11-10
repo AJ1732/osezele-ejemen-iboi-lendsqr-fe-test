@@ -2,7 +2,7 @@
 import clsx from "clsx";
 import { useState } from "react";
 import { ActionsSection, SearchInput } from "./components";
-import { LogoSVG } from "@/components/svgs";
+import { AlignLeftSVG, DropdownSVG, LogoSVG } from "@/components/svgs";
 import styles from "./header.module.scss";
 import { useSidebar } from "@/context";
 
@@ -27,7 +27,10 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
       <button
         onClick={toggleSidebar}
         className={styles["header__sidebar__toggle"]}
-      ></button>
+      >
+        <AlignLeftSVG />
+      </button>
+
       <LogoSVG />
 
       <div className={styles["header__lg__nav"]}>
@@ -55,7 +58,9 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
       <button
         onClick={toggleMenubar}
         className={styles["header__mobile__toggle"]}
-      ></button>
+      >
+        <DropdownSVG />
+      </button>
     </header>
   );
 };

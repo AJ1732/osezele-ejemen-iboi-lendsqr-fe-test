@@ -1,7 +1,7 @@
 @use "src/scss/main" as *;
 
 .header {
-  @include flex(row, space-between, center, 10rem);
+  @include flex(row, space-between, center, 2rem);
   position: relative;
 
   &__lg__nav {
@@ -20,6 +20,7 @@
     position: absolute;
     right: 0;
     top: 100%;
+    z-index: 99;
     width: 100%;
     max-width: 20rem;
     padding: 1rem;
@@ -29,13 +30,16 @@
     @include for-md-up {
       display: none;
     }
+
+    .header__actions {
+      background-color: red;
+    }
   }
 
   &__sidebar__toggle {
     @include flex(row, center, center, 0);
     @include square(2rem);
 
-    background-color: $secondary-color;
     border-radius: 1rem;
 
     @include for-md-up {
@@ -47,7 +51,6 @@
     @include flex(row, center, center, 0);
     @include square(1rem);
 
-    background-color: $secondary-color;
     border-radius: 1rem;
 
     @include for-md-up {

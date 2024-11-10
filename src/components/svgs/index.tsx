@@ -1,3 +1,4 @@
+export { default as AlignLeftSVG } from "./AlignLeftSVG";
 export { default as ArrowNextSVG } from "./ArrowNextSVG";
 export { default as ArrowPreviousSVG } from "./ArrowPreviousSVG";
 export { default as BadgePercentSVG } from "./BadgePercentSVG";
