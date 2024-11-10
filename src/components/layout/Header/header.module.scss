@@ -1,1 +1,57 @@
 @use "src/scss/main" as *;
+
+.header {
+  @include flex(row, space-between, center, 10rem);
+  position: relative;
+
+  &__lg__nav {
+    width: 100%;
+    max-width: 65rem;
+    display: none;
+
+    @include for-md-up {
+      @include flex(row, space-between, center, 4rem);
+    }
+  }
+  
+  &__sm__nav {
+    @include flex(column, space-between, center, 4rem);
+
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 100%;
+    max-width: 20rem;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0px 15px 90px 0px rgba(0, 0, 0, 0.03);
+    
+    @include for-md-up {
+      display: none;
+    }
+  }
+
+  &__sidebar__toggle {
+    @include flex(row, center, center, 0);
+    @include square(2rem);
+
+    background-color: $secondary-color;
+    border-radius: 1rem;
+
+    @include for-md-up {
+      display: none;
+    }
+  }
+  
+  &__mobile__toggle {
+    @include flex(row, center, center, 0);
+    @include square(1rem);
+
+    background-color: $secondary-color;
+    border-radius: 1rem;
+
+    @include for-md-up {
+      display: none;
+    }
+  }
+}

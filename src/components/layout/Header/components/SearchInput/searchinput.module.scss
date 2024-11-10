@@ -8,6 +8,10 @@
   border: 1px solid color-opacity($text-color, 80%);
   border-radius: 0.5rem;
   overflow: hidden;
+  
+  @include for-md-up {
+    min-width: 25rem;
+  }
 
   &__input {
     border: none;

@@ -4,6 +4,7 @@ import { useState } from "react";
 import { ActionsSection, SearchInput } from "./components";
 import { LogoSVG } from "@/components/svgs";
 import styles from "./header.module.scss";
+import { useSidebar } from "@/context";
 
 interface HeaderProps {
   className: string;
@@ -11,6 +12,7 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({ className }) => {
   const [searchQuery, setSearchQuery] = useState<string>("");
+  const { toggleSidebar, openMenubar, toggleMenubar } = useSidebar();
 
   const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSearchQuery(event.target.value);
@@ -22,15 +24,38 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
 
   return (
     <header className={clsx(styles["header"], className)}>
+      <button
+        onClick={toggleSidebar}
+        className={styles["header__sidebar__toggle"]}
+      ></button>
       <LogoSVG />
 
-      <SearchInput
-        value={searchQuery}
-        onChange={handleSearchChange}
-        onSearch={handleSearch}
-      />
+      <div className={styles["header__lg__nav"]}>
+        <SearchInput
+          value={searchQuery}
+          onChange={handleSearchChange}
+          onSearch={handleSearch}
+        />
 
-      <ActionsSection />
+        <ActionsSection />
+      </div>
+
+      {openMenubar && (
+        <div className={styles["header__sm__nav"]}>
+          <SearchInput
+            value={searchQuery}
+            onChange={handleSearchChange}
+            onSearch={handleSearch}
+          />
+
+          <ActionsSection />
+        </div>
+      )}
+
+      <button
+        onClick={toggleMenubar}
+        className={styles["header__mobile__toggle"]}
+      ></button>
     </header>
   );
 };

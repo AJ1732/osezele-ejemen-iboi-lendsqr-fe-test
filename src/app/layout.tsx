@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import NextTopLoader from "nextjs-toploader";
+import { SidebarProvider } from "@/context";
 import "./globals.scss";
 
 export const metadata: Metadata = {
@@ -16,7 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <NextTopLoader color="#39CDCC" />
-        {children}
+        <SidebarProvider>{children}</SidebarProvider>
       </body>
     </html>
   );
