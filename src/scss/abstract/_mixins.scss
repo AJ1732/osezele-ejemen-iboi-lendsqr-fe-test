@@ -51,6 +51,43 @@
   }
 }
 
+// OTHER QUERIES
+@mixin for-xs-only {
+  @media (max-width: 639px) {
+    @content;
+  }
+}
+
+@mixin for-sm-up {
+  @media (min-width: 640px) {
+    @content;
+  }
+}
+
+@mixin for-md-up {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin for-lg-up {
+  @media (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin for-xl-up {
+  @media (min-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin for-2xl-up {
+  @media (min-width: 1536px) {
+    @content;
+  }
+}
+
 // CUSTOM MEDIA QUERY
 @mixin custom-query($min-width, $max-width) {
   @media (min-width: $min-width) and (max-width: $max-width) {

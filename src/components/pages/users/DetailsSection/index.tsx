@@ -31,6 +31,59 @@ const DetailsSection: React.FC<DetailsSectionProps> = ({ userId }) => {
   return (
     <section className={styles["detailsSection"]}>
       <div>
+        <h3>Personal Information</h3>
+        <div>
+          <div>
+            <h4>full name</h4>
+            <p>{userRecord.fullName}</p>
+          </div>
+
+          <div>
+            <h4>Phone Number</h4>
+            <p>{userRecord.phoneNumber}</p>
+          </div>
+
+          <div>
+            <h4>Email Address</h4>
+            <p>{userRecord.email}</p>
+          </div>
+
+          <div>
+            <h4>bvn</h4>
+            <p>{userRecord.bvn}</p>
+          </div>
+
+          <div>
+            <h4>gender</h4>
+            <p>
+              {userRecord.gender.charAt(0).toUpperCase() +
+                userRecord.gender.slice(1).toLowerCase()}
+            </p>
+          </div>
+
+          <div>
+            <h4>Marital status</h4>
+            <p>
+              <p>
+                {userRecord.maritalStatus.charAt(0).toUpperCase() +
+                  userRecord.maritalStatus.slice(1).toLowerCase()}
+              </p>
+            </p>
+          </div>
+
+          <div>
+            <h4>Children</h4>
+            <p>{userRecord.children}</p>
+          </div>
+
+          <div>
+            <h4>Type of residence</h4>
+            <p>{userRecord.residenceType}</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
         <h3>Education and Employment</h3>
         <div>
           <div>

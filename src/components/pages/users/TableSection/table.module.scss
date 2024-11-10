@@ -1,7 +1,10 @@
 @use "src/scss/main" as *;
 
 .container {
+  min-height: 44rem;
+  max-width: calc(100dvw - 5rem);
   padding-inline: 1.875rem;
+  overflow-x: scroll;
 
   background-color: #fff;
   box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.04);

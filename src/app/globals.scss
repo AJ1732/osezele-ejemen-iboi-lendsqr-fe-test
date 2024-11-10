@@ -133,6 +133,10 @@ button {
   width: 8px;
 }
 
+::-webkit-scrollbar:horizontal {
+  height: 8px; 
+}
+
 ::-webkit-scrollbar-track {
   background-color: #fff;
 }

@@ -8,6 +8,14 @@
   box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.04);
   border: 1px solid rgba(33, 63, 125, 0.06);
   position: relative;
+  max-width: calc(100dvw - 5rem);
+  width: 100%;
+  min-height: 13.8rem;
+  overflow-x: scroll;
+
+  @include for-lg-up {
+    max-width: calc(100dvw - 23rem);
+  }
 
   &__actions {
     @include flex(row, flex-end, center, 1.25rem);
@@ -28,10 +36,10 @@
         color: $error;
         border: 1px solid $error;
       }
-      
+
       &:last-child {
-        color: #39CDCC;
-        border: 1px solid #39CDCC;
+        color: #39cdcc;
+        border: 1px solid #39cdcc;
       }
     }
   }
@@ -51,6 +59,7 @@
         div:first-child {
           @include square(6.25rem);
           @include flex(column, center, center, 0);
+          min-width: 6.25rem;
 
           background-color: color-opacity($secondary-color, 84%);
           border-radius: 100%;

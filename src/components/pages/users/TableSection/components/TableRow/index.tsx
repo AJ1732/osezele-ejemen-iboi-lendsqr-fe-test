@@ -1,7 +1,8 @@
 "use client";
-import { useRouter } from "next/navigation";
+import { useRouter } from "nextjs-toploader/app";
 import { Badge } from "@/components";
 import { MoreEllipseSVG } from "@/components/svgs";
+import { formatDate } from "@/utils";
 import { RowData } from "../../types";
 import styles from "./tablerow.module.scss";
 
@@ -21,7 +22,9 @@ const TableRow: React.FC<TableRowProps> = ({ data }) => {
       <td className={styles["row__username"]}>{data.fullName}</td>
       <td className={styles["row__email"]}>{data.email}</td>
       <td className={styles["row__phoneNumber"]}>{data.phoneNumber}</td>
-      <td className={styles["row__dateJoined"]}>{data.dateJoined}</td>
+      <td className={styles["row__dateJoined"]}>
+        {formatDate(data.dateJoined)}
+      </td>
       <td className={styles["row__status"]}>
         <Badge label={data.status} />
       </td>

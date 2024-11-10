@@ -1,11 +1,16 @@
 @use "src/scss/main" as *;
 
 .detailsSection {
-  padding-inline: 1.875rem;
   background: white;
+  padding-inline: 1.875rem;
   border-radius: 0.25rem;
   border: 1px solid rgba(33, 63, 125, 0.06);
   box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.04);
+  max-width: calc(100dvw - 5rem);
+
+  @include for-lg-up {
+    max-width: calc(100dvw - 23rem);
+  }
 
   > div {
     padding-block: 1.875rem;

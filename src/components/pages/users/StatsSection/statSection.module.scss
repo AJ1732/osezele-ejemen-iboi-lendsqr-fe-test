@@ -1,7 +1,16 @@
 @use "src/scss/main" as *;
 
 .statsContainer {
-  @include grid-display(4, auto, 1.625rem);
+  @include grid-display(1, auto, 1.625rem);
+  max-width: calc(100dvw - 5rem);
+
+  @include for-md-up {
+    @include grid-display(2, auto, 1.625rem);
+  }
+
+  @include for-lg-up {
+    @include grid-display(4, auto, 1.625rem);
+  }
 
   > div {
     @include flex(column, flex-start, flex-start, 0.75rem);
@@ -38,6 +47,12 @@
       font-size: 0.875rem;
       color: $secondary-color;
       text-transform: uppercase;
+      white-space: nowrap;
+      min-width: 15rem;
+
+      @include for-lg-up {
+        min-width: 100%;
+      }
     }
 
     p {

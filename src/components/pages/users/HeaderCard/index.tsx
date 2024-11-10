@@ -5,6 +5,7 @@ import { ApiData } from "@/types/userRecords";
 import { formatToThousands } from "@/utils";
 import styles from "./headerCard.module.scss";
 import { ProfileUserSVG } from "@/components/svgs";
+import clsx from "clsx";
 
 interface HeaderCardProps {
   userId: string;
@@ -28,8 +29,7 @@ const HeaderCard: React.FC<HeaderCardProps> = ({ userId }) => {
   }
 
   return (
-    <section className={styles["headerCard"]}>
-      
+    <section className={clsx(styles["headerCard"], "no-scrollbar")}>
       <div className={styles["headerCard__actions"]}>
         <button>blacklist user</button>
         <button>activate user</button>

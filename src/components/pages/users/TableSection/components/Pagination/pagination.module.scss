@@ -1,9 +1,13 @@
 @use "src/scss/main" as *;
 
 .container {
-  @include flex(row, space-between, center, 1rem);
+  @include flex(column, space-between, center, 1rem);
+  max-width: calc(100dvw - 5rem);
 
-  margin-top: -1.5rem;
+  @include for-md-up {
+    @include flex(row, space-between, center, 1rem);
+    margin-top: -1.5rem;
+  }
 
   div:first-child {
     @include flex(row, flex-start, center, 0.625rem);

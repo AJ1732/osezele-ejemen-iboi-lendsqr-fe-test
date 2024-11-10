@@ -4,8 +4,12 @@
   min-height: 100dvh;
   background-color: $background;
   display: grid;
-  grid-template-columns: 18rem 1fr;
   place-content: start;
+  position: relative;
+
+  @include for-lg-up {
+    grid-template-columns: 18rem 1fr;
+  }
 
   &__header {
     height: 6.25rem;
@@ -19,20 +23,40 @@
 
   &__sidebar,
   &__main {
-    max-height: calc(100dvh - 6.25rem);
     overflow-y: scroll;
+    max-height: calc(100dvh - 6.25rem);
   }
 
   &__sidebar {
+    position: absolute;
+    top: 6.25rem;
+    left: 100%;
+
+    max-width: 18rem;
     padding-block: 2.4rem;
     background-color: white;
+
+    &:--open {
+      left: 0;
+    }
+
+    @include for-lg-up {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
   }
 
   &__main {
     @include grid-display(1, auto, 2.5rem);
+    
+    @include for-lg-up {
+      grid-column-start: 2;
+    }
 
-    padding: 3.75rem;
+    padding: 3.75rem 2.5rem;
     min-height: calc(100dvh - 6.25rem);
+    overflow-x: hidden;
 
     // div:nth-child(2) {
     //   max-width: 65rem;
