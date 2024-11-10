@@ -5,11 +5,26 @@
   max-width: calc(100dvw - 5rem);
   padding-inline: 1.875rem;
   overflow-x: scroll;
+  position: relative;
 
   background-color: #fff;
   box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.04);
   border-radius: 0.25rem;
   border: 1px solid rgba(33, 63, 125, 0.06);
+
+  .filter-form {
+    @include flex(column, flex-start, flex-start, 1.25rem);
+
+    position: absolute;
+    z-index: 99;
+    top: 3.75rem;
+    width: 16.875rem;
+    padding: 1.875rem 1.25rem;
+    background: white;
+    border-radius: 0.25rem;
+    border: 1px solid colop-opacity($secondary-color, 86%);
+    box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.04);
+  }
 }
 
 .table {

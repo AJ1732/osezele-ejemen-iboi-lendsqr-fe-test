@@ -1,5 +1,6 @@
 "use client";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
+import { useRouter } from "nextjs-toploader/app";
 import { NavigateBackSVG } from "@/components/svgs";
 import styles from "./pageHeader.module.scss";
 

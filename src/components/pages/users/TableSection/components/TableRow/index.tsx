@@ -14,6 +14,7 @@ const TableRow: React.FC<TableRowProps> = ({ data }) => {
   const router = useRouter();
 
   return (
+    <>
     <tr
       className={styles["row"]}
       onClick={() => router.push(`/users/${data.userId}`)}
@@ -33,7 +34,13 @@ const TableRow: React.FC<TableRowProps> = ({ data }) => {
           <MoreEllipseSVG />
         </button>
       </td>
+    <div className={styles["row-actions"]}>
+
+    </div>
     </tr>
+
+    </>
+
   );
 };
 

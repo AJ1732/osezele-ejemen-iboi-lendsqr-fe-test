@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { Pagination, TableRow } from "./components";
+import { FilterForm, Pagination, TableRow } from "./components";
 import { FilterResultsSVG } from "@/components/svgs";
 import { fetchUsersData } from "@/data";
 import { RowData } from "./types";
@@ -8,6 +8,7 @@ import styles from "./table.module.scss";
 
 const TableSection = () => {
   const [data, setData] = useState<RowData[]>([]);
+  const [openForm, setOpenForm] = useState<boolean>(false);
   const [currentPage, setCurrentPage] = useState(1);
   const recordsPerPage = 10;
 
@@ -33,6 +34,10 @@ const TableSection = () => {
     <>
       {/* TABLE */}
       <section className={styles["container"]}>
+        {openForm && (
+          <FilterForm openForm={openForm} className={styles["filter-form"]} />
+        )}
+
         <table className={styles["table"]}>
           <thead>
             <tr>
@@ -40,7 +45,10 @@ const TableSection = () => {
                 <th key={head}>
                   <div>
                     <span>{head}</span>
-                    <button type="button">
+                    <button
+                      type="button"
+                      onClick={() => setOpenForm((prev) => !prev)}
+                    >
                       <FilterResultsSVG />
                     </button>
                   </div>

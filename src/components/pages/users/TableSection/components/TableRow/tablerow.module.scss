@@ -2,6 +2,7 @@
 
 .row {
   border-bottom: 1px solid rgba(33, 63, 125, 0.1);
+  position: relative;
 
   &:last-child {
     border: none;
@@ -27,6 +28,7 @@
   }
 
   &__icon {
+    @include flex(row, flex-end);
     div {
       @include square(1.25rem);
 
@@ -34,4 +36,17 @@
       border-radius: 0.25rem;
     }
   }
+}
+
+.row-actions {
+  position: absolute;
+  z-index: 99;
+  top: 0.5rem;
+  right: 3rem;
+  width: 11.25rem;
+  padding: 1.25rem;
+  border-radius: 0.25rem;
+  border: 1px solid rgba(84, 95, 125, 0.04);
+  background: #fff;
+  box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.04);
 }
